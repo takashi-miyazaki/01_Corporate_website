@@ -1,1 +1,23 @@
-null
+header {
+  display: flex;
+  align-items: center;
+  width: 98%;
+  margin: 0 auto; }
+  header img {
+    height: 30px;
+    width: 160px; }
+  header li {
+    display: inline;
+    text-align: center;
+    margin: 0 1vw; }
+
+.top {
+  background-image: url(../img/top_img.jpg);
+  background-size: cover;
+  height: 600px; }
+  .top h3 {
+    font-family: "Hiragino Mincho Pro";
+    font-size: 4rem;
+    color: white;
+    padding: 5% 0 0 5%;
+    margin: 0; }
