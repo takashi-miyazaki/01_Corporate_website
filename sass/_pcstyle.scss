@@ -162,7 +162,7 @@ header {
 
     &__btn {
         background-color: #ffcb08;
-        margin: 40px auto;
+        margin: 60px auto;
         font-size: 16px;
         font-weight: bold;
         line-height: 70px;
@@ -214,4 +214,168 @@ header {
     }
 
 }
-        
+
+.work {
+    text-align: center;
+    margin-top: 70px;
+
+    span {
+        font-size: 36px;
+        color: #ffcb08;
+    }
+
+    h3 {
+        font-size: 36px;
+    }
+
+    &__wrap {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+    }
+
+    &__blk {
+        width: 280px;
+
+        img {
+            max-width: 280px;
+        }
+
+    }
+
+    &__btn {
+        background-color: #ffcb08;
+        margin: 60px auto 20px auto;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 70px;
+        width: 400px;
+        height: 70px;
+    }
+
+}
+
+.contents { 
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    background-color: #efefef;
+
+    span {
+        font-size: 36px;
+        color: #ffcb08;
+    }
+
+    h3 {
+        font-size: 36px;
+        padding: 10px 0 30px 0;
+    }
+
+    &__wrap {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+
+    }
+
+    &__blk {
+        background-color: white;
+        height: 380px;
+        width: 280px;
+        padding: 20px;
+
+        img {
+            max-width: 240px;
+        }
+
+        span {
+            font-size: 14px;
+            color: black;
+        }
+    
+        h4 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    &__btn {
+        background-color: #ffcb08;
+        margin: 60px auto 20px auto;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 70px;
+        width: 400px;
+        height: 70px;
+    }
+
+}
+.contact {
+    font-family: "UD Shin Go Medium";
+    background-image: url(../img/top_img.jpg);
+    background-size: cover;
+    height: 440px;
+    text-align: center;
+    color: white;
+    padding-top: 90px;
+
+    span {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 24px;
+        padding-top: 10px;
+    }
+
+    &__btn {
+        margin: 20px auto 20px auto;
+        width: 320px;
+        height: 70px;
+        border: white 5px solid;
+
+        p {
+        font-size: 24px;
+        text-align: center;
+        line-height: 65px;
+        padding: 0;
+        }
+
+    }
+}
+
+footer {
+    padding-top: 20px;
+
+    ul {
+        text-align: center;
+    }
+
+    li {
+        display: inline;
+        text-align: center;
+        margin: 0 1vw;
+    }
+}
+
+.footer__menu {
+    padding-bottom: 85px;
+}
+
+.footer__info {
+    font-size: 12px;
+    padding-left: 30px;
+
+    img {
+        max-width: 195px;
+    }
+
+    p {
+        padding: 10px;
+    }
+}

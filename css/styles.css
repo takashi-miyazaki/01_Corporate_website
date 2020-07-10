@@ -113,7 +113,7 @@ header {
       max-width: 280px; }
   .service__btn {
     background-color: #ffcb08;
-    margin: 40px auto;
+    margin: 60px auto;
     font-size: 16px;
     font-weight: bold;
     line-height: 70px;
@@ -142,3 +142,112 @@ header {
     height: 70px; }
   .topmsg__img img {
     max-width: 400px; }
+
+.work {
+  text-align: center;
+  margin-top: 70px; }
+  .work span {
+    font-size: 36px;
+    color: #ffcb08; }
+  .work h3 {
+    font-size: 36px; }
+  .work__wrap {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px; }
+  .work__blk {
+    width: 280px; }
+    .work__blk img {
+      max-width: 280px; }
+  .work__btn {
+    background-color: #ffcb08;
+    margin: 60px auto 20px auto;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
+    width: 400px;
+    height: 70px; }
+
+.contents {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background-color: #efefef; }
+  .contents span {
+    font-size: 36px;
+    color: #ffcb08; }
+  .contents h3 {
+    font-size: 36px;
+    padding: 10px 0 30px 0; }
+  .contents__wrap {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px; }
+  .contents__blk {
+    background-color: white;
+    height: 380px;
+    width: 280px;
+    padding: 20px; }
+    .contents__blk img {
+      max-width: 240px; }
+    .contents__blk span {
+      font-size: 14px;
+      color: black; }
+    .contents__blk h4 {
+      font-size: 18px; }
+    .contents__blk p {
+      font-size: 14px; }
+  .contents__btn {
+    background-color: #ffcb08;
+    margin: 60px auto 20px auto;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
+    width: 400px;
+    height: 70px; }
+
+.contact {
+  font-family: "UD Shin Go Medium";
+  background-image: url(../img/top_img.jpg);
+  background-size: cover;
+  height: 440px;
+  text-align: center;
+  color: white;
+  padding-top: 90px; }
+  .contact span {
+    font-size: 36px; }
+  .contact p {
+    font-size: 24px;
+    padding-top: 10px; }
+  .contact__btn {
+    margin: 20px auto 20px auto;
+    width: 320px;
+    height: 70px;
+    border: white 5px solid; }
+    .contact__btn p {
+      font-size: 24px;
+      text-align: center;
+      line-height: 65px;
+      padding: 0; }
+
+footer {
+  padding-top: 20px; }
+  footer ul {
+    text-align: center; }
+  footer li {
+    display: inline;
+    text-align: center;
+    margin: 0 1vw; }
+
+.footer__menu {
+  padding-bottom: 85px; }
+
+.footer__info {
+  font-size: 12px;
+  padding-left: 30px; }
+  .footer__info img {
+    max-width: 195px; }
+  .footer__info p {
+    padding: 10px; }
