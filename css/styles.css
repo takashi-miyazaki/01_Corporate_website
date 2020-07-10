@@ -94,3 +94,51 @@ header {
     line-height: 70px;
     width: 400px;
     height: 70px; }
+
+.service {
+  text-align: center;
+  margin-top: 70px; }
+  .service span {
+    font-size: 36px;
+    color: #ffcb08; }
+  .service h3 {
+    font-size: 36px; }
+  .service__wrap {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px; }
+  .service__blk {
+    width: 280px; }
+    .service__blk img {
+      max-width: 280px; }
+  .service__btn {
+    background-color: #ffcb08;
+    margin: 40px auto;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 70px;
+    width: 400px;
+    height: 70px; }
+
+.topmsg {
+  background-color: #efefef; }
+  .topmsg__wrap {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px; }
+  .topmsg__txt h4 {
+    font-size: 34px;
+    margin: 40px 0 30px 0; }
+  .topmsg__txt p {
+    margin-top: 5px; }
+  .topmsg__btn {
+    background-color: #ffcb08;
+    margin: 40px 0 20px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
+    width: 400px;
+    height: 70px; }
+  .topmsg__img img {
+    max-width: 400px; }
