@@ -1,7 +1,12 @@
+body {
+  font-family: "UD Shin Go Medium"; }
+
 header {
   display: flex;
+  justify-content: center;
   align-items: center;
   width: 98%;
+  height: 80px;
   margin: 0 auto; }
   header img {
     height: 30px;
@@ -14,10 +19,78 @@ header {
 .top {
   background-image: url(../img/top_img.jpg);
   background-size: cover;
-  height: 600px; }
+  height: 600px;
+  color: white;
+  font-family: "Hiragino Mincho Pro"; }
   .top h3 {
-    font-family: "Hiragino Mincho Pro";
     font-size: 4rem;
-    color: white;
     padding: 5% 0 0 5%;
     margin: 0; }
+  .top__btn {
+    padding: 10px 20px;
+    border: white 1px solid;
+    border-radius: 30px;
+    width: 300px;
+    text-align: center;
+    margin: 5%;
+    font-size: larger; }
+
+.philosophy {
+  background-color: #efefef;
+  height: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .philosophy__body {
+    font-family: "UD Shin Go Medium";
+    background-color: white;
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    text-align: center; }
+    .philosophy__body h3 {
+      font-size: 30px;
+      margin: 40px 0 20px 0; }
+  .philosophy__btn {
+    background-color: #ffcb08;
+    margin: 40px auto;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 70px;
+    width: 400px;
+    height: 70px; }
+
+.merit {
+  background-image: url(../img/top_img.jpg);
+  background-size: cover;
+  height: 640px;
+  text-align: center; }
+  .merit h3 {
+    color: white;
+    padding-top: 50px;
+    font-size: 34px; }
+  .merit h4 {
+    color: white;
+    font-size: 16px; }
+  .merit__wrap {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px; }
+  .merit__blk {
+    width: 270px;
+    height: 260px;
+    background-color: white; }
+    .merit__blk h5 {
+      color: #ffcb08;
+      font-size: 18px;
+      padding-top: 80px; }
+    .merit__blk p {
+      font-size: 24px; }
+  .merit__btn {
+    background-color: #ffcb08;
+    margin: 40px auto;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 70px;
+    width: 400px;
+    height: 70px; }
