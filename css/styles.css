@@ -1,20 +1,22 @@
 body {
   font-family: "UD Shin Go Medium"; }
 
-header {
+.header__pc {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 98%;
   height: 80px;
   margin: 0 auto; }
-  header img {
-    height: 30px;
+  .header__pc img {
     width: 160px; }
-  header li {
+  .header__pc li {
     display: inline;
     text-align: center;
     margin: 0 1vw; }
+
+.header__mobile {
+  display: none; }
 
 .top {
   background-image: url(../img/top_img.jpg);
@@ -251,3 +253,29 @@ footer {
     max-width: 195px; }
   .footer__info p {
     padding: 10px; }
+
+@media screen and (max-width: 1200px) {
+  .header__pc {
+    display: none; }
+  .header__mobile {
+    display: block; }
+    .header__mobile img {
+      max-width: 170px; }
+  .top {
+    height: 400px; }
+  .merit {
+    height: auto; }
+    .merit__wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .merit__blk {
+      width: 90%;
+      height: auto;
+      margin: 5px 0; }
+      .merit__blk h5 {
+        padding-top: 30px; }
+      .merit__blk p {
+        padding-bottom: 20px; }
+    .merit__btn {
+      width: 65%; } }

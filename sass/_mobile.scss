@@ -1,0 +1,56 @@
+@media screen and (max-width: 1200px) {
+    .header {
+        // pc版のヘッダーを非表示
+        &__pc {
+            display: none;
+        }
+
+        // モバイル版のヘッダーを1200px切ったら切り替えて表示
+        &__mobile {
+            display: block;
+
+            img {
+                max-width: 170px;
+            }
+
+
+        }
+    }
+
+    .top {
+        height: 400px;
+    }
+
+    .merit {
+        height: auto;
+
+        &__wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__blk {
+            width: 90%;
+            height: auto;
+            margin: 5px 0;
+
+            h5 {
+                padding-top: 30px;
+            }
+
+            p {
+                padding-bottom: 20px;
+            }
+        }
+
+        &__btn {
+            width: 65%;
+        }
+
+    }
+        
+
+
+
+}

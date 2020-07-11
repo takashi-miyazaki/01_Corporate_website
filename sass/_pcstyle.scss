@@ -2,7 +2,8 @@ body {
     font-family: "UD Shin Go Medium";
 }
 
-header {
+.header {
+    &__pc {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +12,7 @@ header {
     margin: 0 auto;
 
     img { 
-        height: 30px;
+        // height: 30px;
         width: 160px;
     }
 
@@ -21,6 +22,11 @@ header {
         margin: 0 1vw;
     }
 
+    }
+
+    &__mobile {
+        display: none;
+    }
 }
 
 .top {
