@@ -1,5 +1,5 @@
 body {
-    font-family: "UD Shin Go Medium";
+    font-family: "a-otf-ud-shin-go-pr6n, sans-serif";
 }
 
 .header {
@@ -62,7 +62,7 @@ body {
     align-items: center;
 
     &__body {
-        font-family: "UD Shin Go Medium";
+        font-family: "a-otf-ud-shin-go-pr6n, sans-serif";
         background-color: white;
         margin: 0 auto;
         width: 90%;
@@ -140,6 +140,7 @@ body {
 .service {
     text-align: center;
     margin-top: 70px;
+    font-size: 18px;
 
     span {
         font-size: 36px;
@@ -201,7 +202,8 @@ body {
     }
 
     &__btn {
-        background-color: #ffcb08;
+        background-color: #333333;
+        color: white;
         margin: 40px 0 20px 0;
         font-size: 16px;
         font-weight: bold;
@@ -269,6 +271,7 @@ body {
     background-color: #efefef;
 
     span {
+        display: block;
         font-size: 36px;
         color: #ffcb08;
     }
@@ -322,7 +325,7 @@ body {
 
 }
 .contact {
-    font-family: "UD Shin Go Medium";
+    font-family: "a-otf-ud-shin-go-pr6n, sans-serif";
     background-image: url(../img/top_img.jpg);
     background-size: cover;
     height: 440px;

@@ -18,7 +18,7 @@
     }
 
     .top {
-        height: 400px;
+        height: 450px;
     }
 
     .merit {
@@ -49,7 +49,158 @@
         }
 
     }
+
+    .service {
+        height: auto;
+
+        &__wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__blk {
+            width: 90%;
+            height: auto;
+            margin: 5px auto;
+
+            img  {
+                max-width: initial;
+                width: 100%;
+            }
+        }
+
+        &__btn {
+            margin: 40px auto 20px auto;
+            width: 90%;
+
+        }
+
+    }
+
+    .topmsg {
+        height: auto;
+
+        &__wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        &__btn {
+            margin: 40px auto 20px auto;
+            width: 90%;
+        }
         
+    }
+
+    .work {
+        height: auto;
+
+        &__wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__blk {
+            width: 90%;
+            height: auto;
+            margin: 5px auto;
+
+            img  {
+                // max-width: initial;
+                width: 100%;
+            }
+
+
+        }
+
+        &__btn {
+            margin: 40px auto 20px auto;
+            width: 90%;
+
+        }
+   
+    }
+
+    .contents {
+        height: auto;
+        // text-align: left;
+
+        &__wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__blk {
+            width: 90%;
+            height: auto;
+            margin: 5px auto;
+
+            img  {
+                // max-width: initial;
+                text-align: center;
+                width: 100%;
+            }
+
+            span{
+                text-align: left;
+            }
+            h4 {
+                text-align: left;
+            }
+            p {
+                text-align: left;
+            }
+
+        }
+
+        &__btn {
+            margin: 40px auto 20px auto;
+            width: 90%;
+
+        }
+    }
+    
+    .contact {
+
+        &__btn {
+                font-size: 20px;
+        }
+    }
+
+    footer {
+        padding: 0;
+
+        li {
+            padding: 15px 0 15px 10px;
+            display: block;
+            text-align: left;
+            margin: 0;
+            border-bottom: #c1c1c1 1px solid;
+        }
+    }
+
+    .footer {
+        &__menu {
+            padding-bottom: 20px;
+        }
+
+        &__info {
+        text-align: center;
+        padding: 0;
+    
+            p:nth-child(1) {
+            text-align: left;
+            }
+
+        }   
+        
+    }
+
 
 
 
