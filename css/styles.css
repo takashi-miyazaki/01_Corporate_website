@@ -36,6 +36,10 @@ body {
     text-align: center;
     margin: 5%;
     font-size: larger; }
+    .top__btn:hover {
+      transition: all 0.3s ease;
+      background-color: #ffcb08;
+      border: none; }
 
 .philosophy {
   background-color: #efefef;
@@ -61,6 +65,11 @@ body {
     line-height: 70px;
     width: 400px;
     height: 70px; }
+    .philosophy__btn:hover {
+      transition: all 0.3s ease;
+      background-color: black;
+      color: white;
+      border: none; }
 
 .merit {
   background-image: url(../img/top_img.jpg);
@@ -96,6 +105,11 @@ body {
     line-height: 70px;
     width: 400px;
     height: 70px; }
+    .merit__btn:hover {
+      transition: all 0.3s ease;
+      background-color: black;
+      color: white;
+      border: none; }
 
 .service {
   text-align: center;
@@ -122,6 +136,11 @@ body {
     line-height: 70px;
     width: 400px;
     height: 70px; }
+    .service__btn:hover {
+      transition: all 0.3s ease;
+      background-color: black;
+      color: white;
+      border: none; }
 
 .topmsg {
   background-color: #efefef; }
@@ -135,7 +154,7 @@ body {
   .topmsg__txt p {
     margin-top: 5px; }
   .topmsg__btn {
-    background-color: #333333;
+    background-color: #ffcb08;
     color: white;
     margin: 40px 0 20px 0;
     font-size: 16px;
@@ -144,6 +163,11 @@ body {
     line-height: 70px;
     width: 400px;
     height: 70px; }
+    .topmsg__btn:hover {
+      transition: all 0.3s ease;
+      background-color: black;
+      color: white;
+      border: none; }
   .topmsg__img img {
     max-width: 400px; }
 
@@ -165,6 +189,7 @@ body {
       max-width: 280px; }
   .work__btn {
     background-color: #ffcb08;
+    color: black;
     margin: 60px auto 20px auto;
     font-size: 16px;
     font-weight: bold;
@@ -172,6 +197,11 @@ body {
     line-height: 70px;
     width: 400px;
     height: 70px; }
+    .work__btn:hover {
+      transition: all 0.3s ease;
+      background-color: black;
+      color: white;
+      border: none; }
 
 .contents {
   text-align: center;
@@ -212,6 +242,11 @@ body {
     line-height: 70px;
     width: 400px;
     height: 70px; }
+    .contents__btn:hover {
+      transition: all 0.3s ease;
+      background-color: black;
+      color: white;
+      border: none; }
 
 .contact {
   font-family: "a-otf-ud-shin-go-pr6n, sans-serif";
@@ -231,6 +266,10 @@ body {
     width: 320px;
     height: 70px;
     border: white 5px solid; }
+    .contact__btn:hover {
+      transition: all 0.3s ease;
+      background-color: #ffcb08;
+      color: black; }
     .contact__btn p {
       font-size: 24px;
       text-align: center;
@@ -306,8 +345,14 @@ footer {
       align-items: center;
       text-align: center; }
     .topmsg__btn {
+      background-color: #333333;
       margin: 40px auto 20px auto;
       width: 90%; }
+      .topmsg__btn:hover {
+        transition: all 0.3s ease;
+        background-color: #ffcb08;
+        color: black;
+        border: none; }
   .work {
     height: auto; }
     .work__wrap {

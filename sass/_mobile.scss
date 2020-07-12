@@ -89,8 +89,17 @@
         }
 
         &__btn {
+            background-color: #333333;
             margin: 40px auto 20px auto;
             width: 90%;
+
+            &:hover {
+                transition: all 0.3s ease;
+                background-color: #ffcb08;
+                color: black;
+                border: none;
+                
+            }
         }
         
     }
