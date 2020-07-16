@@ -18,6 +18,9 @@ body {
 .header__mobile {
   display: none; }
 
+nav {
+  display: none; }
+
 .top {
   background-image: url(../img/top_img.jpg);
   background-size: cover;
@@ -300,9 +303,86 @@ footer {
   .header__pc {
     display: none; }
   .header__mobile {
-    display: block; }
+    height: 100%;
+    min-height: 100vh;
+    padding: 0 50px;
+    background-color: #eee;
+    transition: all .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
     .header__mobile img {
       max-width: 170px; }
+  .header__humberger {
+    display: inline-block;
+    width: 36px;
+    height: 28px;
+    vertical-align: middle;
+    cursor: pointer;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    z-index: 100;
+    transform: translateX(0);
+    transition: transform .5s; }
+    .header__humberger span {
+      display: inline-block;
+      box-sizing: border-box;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background-color: #000; }
+    .header__humberger.active {
+      transform: translateX(-250px); }
+      .header__humberger.active span {
+        background-color: #fff; }
+  .--top {
+    top: 0; }
+    .--top.active span {
+      transform: translateY(12px) rotate(-45deg); }
+  .--middle {
+    top: 12px; }
+    .--middle.actice span {
+      opacity: 0; }
+  .--bottom {
+    bottom: 0; }
+    .--bottom.active span {
+      transform: translateY(-12px) rotate(45deg); }
+  nav {
+    width: 250px;
+    height: 100%;
+    padding-top: 100px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    transform: translate(250px);
+    transition: all .5s; }
+    nav.open {
+      transform: translateZ(0); }
+    nav ul {
+      list-style: none; }
+    nav li {
+      text-align: center;
+      padding: 10px 0; }
+  .overlay {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity .5s; }
+    .overlay-open {
+      width: 100%;
+      height: 100%;
+      opacity: 1; }
   .top {
     height: 450px; }
   .merit {
