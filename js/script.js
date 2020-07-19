@@ -12,7 +12,7 @@ $('.header__humberger').on('click',function(){
   $('.overlay').on('click',function(){
     if($(this).hasClass('open')){
       $(this).removeClass('open');
-      $('.menu-trigger').removeClass('active');
+      $('.header__humberger').removeClass('active');
       $('nav').removeClass('open');      
     }
   });
