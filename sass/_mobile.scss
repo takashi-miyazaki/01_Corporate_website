@@ -180,6 +180,20 @@
         height: 450px;
     }
 
+    .philosophy {
+        height: auto;
+        border: solid 15px #efefef;
+        background-color: transparent;
+
+
+        &__btn {
+            margin: 40px auto 20px auto;
+            width: 95%;
+            font-size: 14px;
+        }
+    }   
+    
+
 
     .merit {
         height: auto;
@@ -240,6 +254,10 @@
 
     .topmsg {
         height: auto;
+
+        img {
+            max-width: 90%;
+        }
 
         &__wrap {
             display: flex;
@@ -338,6 +356,7 @@
 
         &__btn {
                 font-size: 20px;
+                width: 95%;
         }
     }
 
