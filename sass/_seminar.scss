@@ -1,0 +1,26 @@
+.seminar {
+    margin: 0 auto;
+    width: 70%;
+
+    &__blk {
+        margin: 50px 0;
+
+        img {
+            max-width: 800px;
+            width: 100%;
+        }
+    }
+
+    &__title {
+        line-height: 45px;
+        font-size: 30px;
+        padding-left: 50px;
+        margin-bottom: 35px;
+        border-left: solid 30px;
+        border-color: gold;
+
+
+    }
+
+    
+}

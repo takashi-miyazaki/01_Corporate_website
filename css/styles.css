@@ -513,3 +513,62 @@ footer {
     padding: 0; }
     .footer__info p:nth-child(1) {
       text-align: left; } }
+
+.blogtop {
+  height: 190px; }
+  .blogtop__img {
+    position: relative;
+    opacity: 0.5; }
+    .blogtop__img img {
+      height: 190px;
+      width: 100%; }
+  .blogtop__letter {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: 30px; }
+
+.bread {
+  margin-left: 5%;
+  line-height: 45px;
+  font-size: 12px; }
+
+.blogcontents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  text-align: center;
+  padding: 0 10px;
+  background-color: #efefef; }
+  .blogcontents__blk {
+    background-color: white;
+    height: 380px;
+    width: 280px;
+    padding: 20px;
+    margin: 20px 0; }
+    .blogcontents__blk img {
+      max-width: 240px; }
+    .blogcontents__blk span {
+      font-size: 14px;
+      color: black; }
+    .blogcontents__blk h4 {
+      font-size: 18px; }
+    .blogcontents__blk p {
+      font-size: 14px; }
+
+.seminar {
+  margin: 0 auto;
+  width: 70%; }
+  .seminar__blk {
+    margin: 50px 0; }
+    .seminar__blk img {
+      max-width: 800px;
+      width: 100%; }
+  .seminar__title {
+    line-height: 45px;
+    font-size: 30px;
+    padding-left: 50px;
+    margin-bottom: 35px;
+    border-left: solid 30px;
+    border-color: gold; }
