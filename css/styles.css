@@ -383,7 +383,7 @@ footer {
     overflow-wrap: break-word; }
 
 .info {
-  width: 75%;
+  width: 60%;
   margin: 50px auto 0 auto; }
   .info__img {
     text-align: center; }
@@ -397,6 +397,26 @@ footer {
     text-align: center; }
   .info__more {
     margin: 0 auto; }
+
+.single {
+  width: 60%;
+  margin: 0 auto 50px auto; }
+  .single__titlebox h2 {
+    font-size: 36px; }
+  .single__info {
+    border-bottom: solid 1px black;
+    padding-bottom: 50px; }
+  .single__img {
+    margin-top: 30px; }
+  .single__text {
+    margin-top: 80px; }
+    .single__text h3 {
+      line-height: 45px;
+      font-size: 30px;
+      padding-left: 50px;
+      margin: 35px auto;
+      border-left: solid 30px;
+      border-color: gold; }
 
 @media screen and (max-width: 1200px) {
   * {
