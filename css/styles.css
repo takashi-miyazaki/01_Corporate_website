@@ -224,6 +224,7 @@ nav {
     padding-top: 50px; }
   .contents__blk {
     background-color: white;
+    overflow: hidden;
     height: 380px;
     width: 280px;
     padding: 20px; }
@@ -343,13 +344,16 @@ footer {
   font-size: 12px; }
 
 .blogcontents {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   padding-top: 50px;
   text-align: center;
   padding: 0 10px;
   background-color: #efefef; }
+  .blogcontents__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1180px;
+    margin: 0 auto; }
   .blogcontents__blk {
     background-color: white;
     height: 380px;
@@ -400,7 +404,7 @@ footer {
     margin: 0 auto; }
 
 .single {
-  width: 60%;
+  width: 800px;
   margin: 0 auto 50px auto; }
   .single__titlebox h2 {
     font-size: 36px; }
@@ -410,7 +414,9 @@ footer {
   .single__img {
     margin-top: 30px; }
   .single__text {
-    margin-top: 80px; }
+    margin-top: 80px;
+    font-size: 16px;
+    line-height: 30px; }
     .single__text h3 {
       line-height: 45px;
       font-size: 30px;
