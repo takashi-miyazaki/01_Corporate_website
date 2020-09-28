@@ -347,6 +347,60 @@ footer {
   line-height: 45px;
   font-size: 12px; }
 
+.works {
+  padding-top: 50px;
+  text-align: center;
+  padding: 0 10px; }
+  .works__menu {
+    display: flex;
+    justify-content: center;
+    list-style: none; }
+    .works__menu li {
+      padding: 5px 20px; }
+      .works__menu li:nth-child(1) {
+        color: white;
+        background-color: black; }
+  .works__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1180px;
+    margin: 0 auto; }
+  .works__blk {
+    height: 300px;
+    width: 280px;
+    padding: 20px;
+    margin: 20px 0;
+    overflow: hidden; }
+    .works__blk img {
+      max-width: 240px; }
+    .works__blk span {
+      font-size: 14px;
+      color: black; }
+    .works__blk h4 {
+      font-size: 18px; }
+    .works__blk p {
+      font-size: 14px; }
+
+.blogtop {
+  height: 190px; }
+  .blogtop__img {
+    position: relative;
+    opacity: 0.5; }
+    .blogtop__img img {
+      height: 190px;
+      width: 100%; }
+  .blogtop__letter {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: 30px; }
+
+.bread {
+  margin-left: 5%;
+  line-height: 45px;
+  font-size: 12px; }
+
 .blogcontents {
   padding-top: 50px;
   text-align: center;
