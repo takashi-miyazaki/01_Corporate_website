@@ -451,6 +451,33 @@ footer {
     line-height: 1.5;
     overflow-wrap: break-word; }
 
+.contactsgl {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto; }
+  .contactsgl__head {
+    text-align: center;
+    margin-bottom: 80px; }
+  .contactsgl__form {
+    width: 100%; }
+    .contactsgl__form input {
+      font-size: 16px;
+      border: 1px solid black;
+      height: 54px;
+      width: 100%;
+      margin: 15px; }
+  .contactsgl__namebox {
+    display: flex;
+    justify-content: space-between; }
+    .contactsgl__namebox span {
+      width: 48%; }
+  .contactsgl___checkbox {
+    font-size: 16px;
+    line-height: 30px; }
+
+.-name {
+  width: 48%; }
+
 .info {
   width: 60%;
   margin: 50px auto 0 auto; }

@@ -1,13 +1,48 @@
 .contactsgl {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+
     &__head {
         text-align: center;
         margin-bottom: 80px;
     }
 
     &__form {
+        width: 100%;
+
         input {
             font-size: 16px;
+            border: 1px solid black;
+            height: 54px;
+            width: 100%;
+            margin: 15px;
         }
+    }
+
+    &__namebox {
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            width: 48%;
+        }
+    }
+
+    &___checkbox {
+        font-size: 16px;
+        line-height: 30px;
 
     }
+}
+
+.-name {
+    width: 48%;
+}
+
+span.wpcf7-list-item {
+    display: inline-block;
+    text-align: left;
+    margin: 0 0 0 1em;
+    width: 30%;
 }
