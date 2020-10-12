@@ -36,9 +36,16 @@
     }
 
     &__checkbox {
+        margin-top: 40px;
         font-size: 16px;
         line-height: 30px;
+        text-align: left;
 
+    }
+
+    &__msg {
+        margin-top: 40px;
+        text-align: left;
     }
 }
 
@@ -55,5 +62,23 @@ span.wpcf7-list-item {
     input {
         font-size: 16px;
         height: 16px;
+        width: 15px;
     }
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    background-color: #ffcb08;
+    color: white;
+    border: none;
+    height: 70px;
+    width: 60%;
+
+
+    &:hover {
+        transition: all 0.3s ease;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+
 }
