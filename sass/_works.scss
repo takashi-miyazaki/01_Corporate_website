@@ -95,3 +95,106 @@
 .-item {
     width: 15%;
 }
+
+.betoc__menu {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 50px 0;
+        
+        li {
+            padding: 5px 20px;
+
+
+            &:nth-child(2) {
+                color: white;
+                background-color: black;
+            }
+        }
+
+}
+
+.wordpress__menu {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 50px 0;
+        
+        li {
+            padding: 5px 20px;
+
+
+            &:nth-child(3) {
+                color: white;
+                background-color: black;
+            }
+        }
+}
+
+.responsive__menu {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 50px 0;
+        
+        li {
+            padding: 5px 20px;
+
+
+            &:nth-child(4) {
+                color: white;
+                background-color: black;
+            }
+        }
+}
+.international__menu {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 50px 0;
+        
+        li {
+            padding: 5px 20px;
+
+
+            &:nth-child(5) {
+                color: white;
+                background-color: black;
+            }
+        }
+}
+
+.store__menu {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 50px 0;
+        
+        li {
+            padding: 5px 20px;
+
+
+            &:nth-child(5) {
+                color: white;
+                background-color: black;
+            }
+        }
+}
+
+.lp__menu {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 50px 0;
+        
+        li {
+            padding: 5px 20px;
+
+
+            &:nth-child(6) {
+                color: white;
+                background-color: black;
+            }
+        }
+}
+
