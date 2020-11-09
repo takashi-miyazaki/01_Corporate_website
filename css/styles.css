@@ -439,7 +439,7 @@ footer {
   margin: 50px 0; }
   .store__menu li {
     padding: 5px 20px; }
-    .store__menu li:nth-child(5) {
+    .store__menu li:nth-child(6) {
       color: white;
       background-color: black; }
 
@@ -450,7 +450,7 @@ footer {
   margin: 50px 0; }
   .lp__menu li {
     padding: 5px 20px; }
-    .lp__menu li:nth-child(6) {
+    .lp__menu li:nth-child(7) {
       color: white;
       background-color: black; }
 
