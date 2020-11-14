@@ -670,6 +670,52 @@ input.wpcf7-form-control.wpcf7-submit {
     .newpost__blk p {
       font-size: 14px; }
 
+.price {
+  margin: 0 auto;
+  width: 70%; }
+  .price__blk {
+    margin: 50px 0 180px 0; }
+  .price__img img {
+    width: 100%; }
+  .price__title {
+    line-height: 45px;
+    font-size: 35px;
+    padding-left: 50px;
+    margin-bottom: 35px;
+    border-left: solid 30px;
+    border-color: gold; }
+  .price__text {
+    font-size: 40px;
+    text-align: center; }
+  .price__expln {
+    margin: 60px 0; }
+    .price__expln h4 {
+      font-size: 25px;
+      margin: 10px 0; }
+    .price__expln ul {
+      list-style: none;
+      font-size: 18px; }
+    .price__expln li {
+      margin: 15px 0; }
+  .price__notice h4 {
+    font-size: 25px;
+    margin: 10px 0; }
+  .price__notice ul {
+    list-style: none;
+    font-size: 18px; }
+  .price__notice li {
+    margin: 15px 0; }
+
+.fa-check-square {
+  color: #00af00;
+  padding-right: 15px;
+  padding-left: 10px; }
+
+.fa-user-alt {
+  color: gray;
+  padding-right: 15px;
+  padding-left: 10px; }
+
 @media screen and (max-width: 1200px) {
   * {
     box-sizing: border-box; }
