@@ -1,0 +1,56 @@
+.vision {
+        display: flex;
+        width: 70%;
+        margin: 80px auto;
+    
+    &__ttl {
+        font-size: 30px;
+        width: 40%;
+        font-family: a-otf-midashi-mi-ma31-pr6n, serif;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    &__txt {
+        font-size: 15px;
+        width: 60%;
+        padding-left: 30px;
+    }
+}
+
+
+
+.srvsingle {
+    margin: 50px auto;
+    width: 70%;
+
+    &__blk {
+        display: flex;
+    }
+
+    &__img {
+        img {
+            width: 95%;
+            padding-left: 30px;
+        }
+    }
+    &__title {
+        line-height: 45px;
+        font-size: 28px;
+        padding-left: 50px;
+        margin-bottom: 35px;
+        border-left: solid 30px;
+        border-color: gold;
+    }
+
+
+    &__expln {
+
+        h4 {
+            font-size: 25px;
+            margin: 10px 0;
+        }
+    }
+
+
+}

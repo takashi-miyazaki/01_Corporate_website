@@ -351,6 +351,45 @@
 
         }
     }
+    .blogcontents {
+        height: auto;
+        // text-align: left;
+
+        &__wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__blk {
+            width: 90%;
+            height: auto;
+            margin: 5px auto;
+
+            img  {
+                // max-width: initial;
+                text-align: center;
+                width: 100%;
+            }
+
+            span{
+                text-align: left;
+            }
+            h4 {
+                text-align: left;
+            }
+            p {
+                text-align: left;
+            }
+
+        }
+
+        &__btn {
+            margin: 40px auto 20px auto;
+            width: 90%;
+
+        }
+    }
     
     .contact {
 
