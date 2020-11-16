@@ -38,6 +38,7 @@ nav {
   .top__btn {
     padding: 10px 20px;
     border: white 1px solid;
+    color: white;
     border-radius: 30px;
     width: 300px;
     text-align: center;
@@ -273,7 +274,8 @@ nav {
     margin: 20px auto 20px auto;
     width: 320px;
     height: 70px;
-    border: white 5px solid; }
+    border: white 5px solid;
+    color: white; }
     .contact__btn:hover {
       transition: all 0.3s ease;
       background-color: #ffcb08;
