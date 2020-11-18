@@ -457,7 +457,8 @@ footer {
       background-color: black; }
 
 .blogtop {
-  height: 190px; }
+  height: 190px;
+  position: relative; }
   .blogtop__img {
     position: relative;
     opacity: 0.5; }
@@ -521,7 +522,7 @@ footer {
 
 .contactsgl {
   text-align: center;
-  width: 800px;
+  width: 80%;
   margin: 0 auto; }
   .contactsgl__head {
     text-align: center;
@@ -543,6 +544,8 @@ footer {
     justify-content: space-between; }
     .contactsgl__namebox span {
       width: 48%; }
+  .contactsgl__namebox__element {
+    width: 49%; }
   .contactsgl__checkbox {
     margin-top: 40px;
     font-size: 16px;
@@ -576,6 +579,9 @@ input.wpcf7-form-control.wpcf7-submit {
     background-color: black;
     color: white;
     border: none; }
+
+::placeholder {
+  padding-left: 10px; }
 
 .info {
   width: 60%;
@@ -953,7 +959,8 @@ input.wpcf7-form-control.wpcf7-submit {
     .blogcontents__wrap {
       display: flex;
       flex-direction: column;
-      align-items: center; }
+      align-items: center;
+      width: 90%; }
     .blogcontents__blk {
       width: 90%;
       height: auto;

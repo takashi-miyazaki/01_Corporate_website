@@ -1,6 +1,6 @@
 .contactsgl {
     text-align: center;
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
 
     &__head {
@@ -33,6 +33,10 @@
         span {
             width: 48%;
         }
+    }
+
+    &__namebox__element {
+        width: 49%;
     }
 
     &__checkbox {
@@ -81,4 +85,8 @@ input.wpcf7-form-control.wpcf7-submit {
         border: none;
     }
 
+}
+
+::placeholder{
+    padding-left: 10px;
 }
