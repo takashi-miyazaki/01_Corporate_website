@@ -252,6 +252,13 @@
 
     }
 
+    .srvsingle {
+        &__blk {
+            display: block;
+        }
+
+    }
+
     .topmsg {
         height: auto;
 
@@ -284,11 +291,13 @@
 
     .work {
         height: auto;
+        margin: 70px 15px;
 
         &__wrap {
             display: flex;
             flex-direction: column;
             align-items: center;
+            // width: 95%;
         }
 
         &__blk {
@@ -311,6 +320,114 @@
         }
    
     }
+
+    .works {
+        &__wrap {
+            width: 95%;
+        }
+    }
+
+    .betoc__menu {
+        display: block;
+        justify-content: center;
+        list-style: none;
+        margin: 50px 0;
+        
+        li {
+            padding: 5px 20px;
+
+
+            &:nth-child(2) {
+                color: white;
+                background-color: black;
+            }
+        }
+
+}
+
+.wordpress__menu {
+        display: block;
+        justify-content: center;
+        list-style: none;
+        margin: 50px 0;
+        
+        li {
+            padding: 5px 20px;
+
+
+            &:nth-child(3) {
+                color: white;
+                background-color: black;
+            }
+        }
+}
+
+.responsive__menu {
+        display: block;
+        justify-content: center;
+        list-style: none;
+        margin: 50px 0;
+        
+        li {
+            padding: 5px 20px;
+
+
+            &:nth-child(4) {
+                color: white;
+                background-color: black;
+            }
+        }
+}
+.international__menu {
+        display: block;
+        justify-content: center;
+        list-style: none;
+        margin: 50px 0;
+        
+        li {
+            padding: 5px 20px;
+
+
+            &:nth-child(5) {
+                color: white;
+                background-color: black;
+            }
+        }
+}
+
+.store__menu {
+        display: block;
+        justify-content: center;
+        list-style: none;
+        margin: 50px 0;
+        
+        li {
+            padding: 5px 20px;
+
+
+            &:nth-child(6) {
+                color: white;
+                background-color: black;
+            }
+        }
+}
+
+.lp__menu {
+        display: block;
+        justify-content: center;
+        list-style: none;
+        margin: 50px 0;
+        
+        li {
+            padding: 5px 20px;
+
+
+            &:nth-child(7) {
+                color: white;
+                background-color: black;
+            }
+        }
+}
 
     .contents {
         height: auto;

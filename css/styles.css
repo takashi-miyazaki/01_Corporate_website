@@ -326,7 +326,8 @@ footer {
   width: 75%;
   margin: 50px auto 0 auto; }
   .about img {
-    width: 400px; }
+    width: 100%;
+    max-width: 400px; }
   .about__text {
     margin: 60px auto; }
 
@@ -367,7 +368,8 @@ footer {
       font-size: 14px; }
 
 .wrksingle {
-  margin: 0 20px; }
+  margin: 0 auto;
+  width: 70%; }
   .wrksingle__title {
     font-size: 34px;
     line-height: 60px; }
@@ -382,8 +384,11 @@ footer {
       border-top: gray 1px solid;
       border-bottom: gray 1px solid;
       line-height: 50px; }
+    .wrksingle__info li {
+      display: inline-block; }
   .wrksingle__img {
-    width: 95%; }
+    width: 95%;
+    margin: 5% auto; }
     .wrksingle__img img {
       width: 100%; }
 
@@ -534,11 +539,11 @@ footer {
       border: 1px solid black;
       height: 54px;
       width: 100%;
-      margin: 15px; }
+      margin: 15px auto; }
     .contactsgl__form textarea {
       border: 1px solid black;
       width: 100%;
-      margin: 15px; }
+      margin: 15px auto; }
   .contactsgl__namebox {
     display: flex;
     justify-content: space-between; }
@@ -600,7 +605,7 @@ input.wpcf7-form-control.wpcf7-submit {
     margin: 0 auto; }
 
 .single {
-  width: 800px;
+  width: 70%;
   margin: 0 auto 50px auto; }
   .single__titlebox h2 {
     font-size: 36px; }
@@ -620,6 +625,10 @@ input.wpcf7-form-control.wpcf7-submit {
       margin: 35px auto;
       border-left: solid 30px;
       border-color: gold; }
+
+.singleimg {
+  width: 100%;
+  height: 100%; }
 
 .middletit {
   background-color: #efefef;
@@ -725,19 +734,16 @@ input.wpcf7-form-control.wpcf7-submit {
   padding-left: 10px; }
 
 .vision {
-  display: flex;
   width: 70%;
   margin: 80px auto; }
   .vision__ttl {
-    font-size: 30px;
-    width: 40%;
+    font-size: 35px;
     font-family: a-otf-midashi-mi-ma31-pr6n, serif;
     font-style: normal;
-    font-weight: 600; }
+    font-weight: 600;
+    text-align: center; }
   .vision__txt {
-    font-size: 15px;
-    width: 60%;
-    padding-left: 30px; }
+    font-size: 15px; }
 
 .srvsingle {
   margin: 50px auto;
@@ -899,6 +905,8 @@ input.wpcf7-form-control.wpcf7-submit {
     .service__btn {
       margin: 40px auto 20px auto;
       width: 90%; }
+  .srvsingle__blk {
+    display: block; }
   .topmsg {
     height: auto; }
     .topmsg img {
@@ -918,7 +926,8 @@ input.wpcf7-form-control.wpcf7-submit {
         color: black;
         border: none; }
   .work {
-    height: auto; }
+    height: auto;
+    margin: 70px 15px; }
     .work__wrap {
       display: flex;
       flex-direction: column;
@@ -932,6 +941,68 @@ input.wpcf7-form-control.wpcf7-submit {
     .work__btn {
       margin: 40px auto 20px auto;
       width: 90%; }
+  .works__wrap {
+    width: 95%; }
+  .betoc__menu {
+    display: block;
+    justify-content: center;
+    list-style: none;
+    margin: 50px 0; }
+    .betoc__menu li {
+      padding: 5px 20px; }
+      .betoc__menu li:nth-child(2) {
+        color: white;
+        background-color: black; }
+  .wordpress__menu {
+    display: block;
+    justify-content: center;
+    list-style: none;
+    margin: 50px 0; }
+    .wordpress__menu li {
+      padding: 5px 20px; }
+      .wordpress__menu li:nth-child(3) {
+        color: white;
+        background-color: black; }
+  .responsive__menu {
+    display: block;
+    justify-content: center;
+    list-style: none;
+    margin: 50px 0; }
+    .responsive__menu li {
+      padding: 5px 20px; }
+      .responsive__menu li:nth-child(4) {
+        color: white;
+        background-color: black; }
+  .international__menu {
+    display: block;
+    justify-content: center;
+    list-style: none;
+    margin: 50px 0; }
+    .international__menu li {
+      padding: 5px 20px; }
+      .international__menu li:nth-child(5) {
+        color: white;
+        background-color: black; }
+  .store__menu {
+    display: block;
+    justify-content: center;
+    list-style: none;
+    margin: 50px 0; }
+    .store__menu li {
+      padding: 5px 20px; }
+      .store__menu li:nth-child(6) {
+        color: white;
+        background-color: black; }
+  .lp__menu {
+    display: block;
+    justify-content: center;
+    list-style: none;
+    margin: 50px 0; }
+    .lp__menu li {
+      padding: 5px 20px; }
+      .lp__menu li:nth-child(7) {
+        color: white;
+        background-color: black; }
   .contents {
     height: auto; }
     .contents__wrap {

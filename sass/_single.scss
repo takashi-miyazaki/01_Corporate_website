@@ -1,5 +1,5 @@
 .single {
-    width: 800px;
+    width: 70%;
     margin: 0 auto 50px auto;
 
     &__titlebox {
@@ -35,6 +35,12 @@
         }
     }
 }
+
+.singleimg {
+    width: 100%;
+    height: 100%;
+}
+
 
 .middletit {
     background-color: #efefef;

@@ -61,7 +61,8 @@
 }
 
 .wrksingle {
-    margin: 0 20px;
+    margin: 0 auto;
+    width: 70%;
 
     &__title {
         font-size: 34px;
@@ -83,9 +84,16 @@
             border-bottom:  gray 1px solid;
             line-height: 50px;
         }
+
+        li {
+            display: inline-block;
+        }
+
+
     }
     &__img {
         width: 95%;
+        margin: 5% auto;
         img { 
             width: 100%;
         }
