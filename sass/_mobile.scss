@@ -193,10 +193,30 @@
         }
     }   
     
+    .bread {
+        line-height: 20px;
+    }
 
 
     .merit {
         height: auto;
+
+        h3 {
+            color: white;
+            padding-top: 50px;
+            font-size: 34px;
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        h4 {
+            color: white;
+            font-size: 16px;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+
 
         &__wrap {
             display: flex;
@@ -224,8 +244,45 @@
 
     }
 
+    .seminar {
+        &__title {
+            line-height: 1.3em;
+            font-size: 1.7em;
+            padding-left: 0;
+            margin-bottom: 35px;
+            border-left: none;
+            border-bottom: solid 10px;
+            border-color: gold;
+        }
+
+    }
+
+    .price {
+        &__title {
+            line-height: 1.3em;
+            font-size: 1.7em;
+            padding-left: 0;
+            margin-bottom: 35px;
+            border-left: none;
+            border-bottom: solid 10px;
+            border-color: gold;
+        }
+        
+    } 
+
     .service {
         height: auto;
+
+        h3 {
+            font-size: 36px;
+            width: 75%;
+            margin: 0 auto;
+        }
+
+        p {
+            width: 75%;
+            margin: 0 auto;
+        }
 
         &__wrap {
             display: flex;
@@ -257,19 +314,40 @@
             display: block;
         }
 
+        &__title {
+            line-height: 1.3em;
+            font-size: 1.7em;
+            padding-left: 0;
+            margin-bottom: 35px;
+            border-left: none;
+            border-bottom: solid 10px;
+            border-color: gold;
+        }
+
     }
 
     .topmsg {
         height: auto;
 
         img {
-            max-width: 90%;
+            max-width: 45%;
+        }
+
+        &__txt h4 {
+            font-size: 34px;
+            margin: 40px auto 30px auto;
+            width: 80%;
+        }
+
+        &__txt p {
+            width: 80%;
+            margin: 0 auto;
         }
 
         &__wrap {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            // align-items: center;
             text-align: center;
         }
 
@@ -324,6 +402,10 @@
     .works {
         &__wrap {
             width: 95%;
+        }
+
+        &__menu {
+            display: block;
         }
     }
 
@@ -468,6 +550,21 @@
 
         }
     }
+
+    .single {
+        &__text {
+            line-height: 1.3em;
+            font-size: 1.7em;
+            padding-left: 0;
+            margin-bottom: 35px;
+            border-left: none;
+            border-bottom: solid 10px;
+            border-color: gold;
+        }
+    }
+
+
+
     .blogcontents {
         height: auto;
         // text-align: left;

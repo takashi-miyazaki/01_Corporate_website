@@ -37,7 +37,7 @@
         height: 300px;
         width: 280px;
         padding: 20px;
-        margin: 20px 0;
+        margin: 20px auto;
         overflow: hidden;
 
         img {
@@ -83,6 +83,7 @@
             border-top: gray 1px solid;
             border-bottom:  gray 1px solid;
             line-height: 50px;
+            padding: 0 15px;
         }
 
         li {

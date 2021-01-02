@@ -53,7 +53,6 @@ nav {
   background-color: #efefef;
   height: 440px;
   display: flex;
-  justify-content: center;
   align-items: center; }
   .philosophy__body {
     font-family: "a-otf-ud-shin-go-pr6n, sans-serif";
@@ -540,6 +539,8 @@ footer {
       height: 54px;
       width: 100%;
       margin: 15px auto; }
+    .contactsgl__form input::placeholder {
+      font-size: 0.8em; }
     .contactsgl__form textarea {
       border: 1px solid black;
       width: 100%;
@@ -547,8 +548,6 @@ footer {
   .contactsgl__namebox {
     display: flex;
     justify-content: space-between; }
-    .contactsgl__namebox span {
-      width: 48%; }
   .contactsgl__namebox__element {
     width: 49%; }
   .contactsgl__checkbox {
@@ -564,10 +563,9 @@ footer {
   width: 48%; }
 
 span.wpcf7-list-item {
-  display: inline-block;
+  display: block;
   text-align: left;
-  margin: 0 0 0 1em;
-  width: 30%; }
+  margin: 0 0 0 1em; }
   span.wpcf7-list-item input {
     font-size: 16px;
     height: 16px;
@@ -875,6 +873,17 @@ input.wpcf7-form-control.wpcf7-submit {
       font-size: 14px; }
   .merit {
     height: auto; }
+    .merit h3 {
+      color: white;
+      padding-top: 50px;
+      font-size: 34px;
+      width: 70%;
+      margin: 0 auto; }
+    .merit h4 {
+      color: white;
+      font-size: 16px;
+      width: 90%;
+      margin: 0 auto; }
     .merit__wrap {
       display: flex;
       flex-direction: column;
@@ -889,8 +898,31 @@ input.wpcf7-form-control.wpcf7-submit {
         padding-bottom: 20px; }
     .merit__btn {
       width: 65%; }
+  .seminar__title {
+    line-height: 1.3em;
+    font-size: 1.7em;
+    padding-left: 0;
+    margin-bottom: 35px;
+    border-left: none;
+    border-bottom: solid 10px;
+    border-color: gold; }
+  .price__title {
+    line-height: 1.3em;
+    font-size: 1.7em;
+    padding-left: 0;
+    margin-bottom: 35px;
+    border-left: none;
+    border-bottom: solid 10px;
+    border-color: gold; }
   .service {
     height: auto; }
+    .service h3 {
+      font-size: 36px;
+      width: 75%;
+      margin: 0 auto; }
+    .service p {
+      width: 75%;
+      margin: 0 auto; }
     .service__wrap {
       display: flex;
       flex-direction: column;
@@ -907,14 +939,28 @@ input.wpcf7-form-control.wpcf7-submit {
       width: 90%; }
   .srvsingle__blk {
     display: block; }
+  .srvsingle__title {
+    line-height: 1.3em;
+    font-size: 1.7em;
+    padding-left: 0;
+    margin-bottom: 35px;
+    border-left: none;
+    border-bottom: solid 10px;
+    border-color: gold; }
   .topmsg {
     height: auto; }
     .topmsg img {
-      max-width: 90%; }
+      max-width: 45%; }
+    .topmsg__txt h4 {
+      font-size: 34px;
+      margin: 40px auto 30px auto;
+      width: 80%; }
+    .topmsg__txt p {
+      width: 80%;
+      margin: 0 auto; }
     .topmsg__wrap {
       display: flex;
       flex-direction: column;
-      align-items: center;
       text-align: center; }
     .topmsg__btn {
       background-color: #333333;
@@ -943,6 +989,8 @@ input.wpcf7-form-control.wpcf7-submit {
       width: 90%; }
   .works__wrap {
     width: 95%; }
+  .works__menu {
+    display: block; }
   .betoc__menu {
     display: block;
     justify-content: center;
