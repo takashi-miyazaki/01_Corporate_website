@@ -463,7 +463,8 @@ footer {
 
 .blogtop {
   height: 190px;
-  position: relative; }
+  position: relative;
+  object-fit: cover; }
   .blogtop__img {
     position: relative;
     opacity: 0.5; }
@@ -706,19 +707,19 @@ input.wpcf7-form-control.wpcf7-submit {
   .price__expln {
     margin: 60px 0; }
     .price__expln h4 {
-      font-size: 25px;
+      font-size: 1.3em;
       margin: 10px 0; }
     .price__expln ul {
       list-style: none;
-      font-size: 18px; }
+      font-size: 1em; }
     .price__expln li {
       margin: 15px 0; }
   .price__notice h4 {
-    font-size: 25px;
+    font-size: 1.3em;
     margin: 10px 0; }
   .price__notice ul {
     list-style: none;
-    font-size: 18px; }
+    font-size: 1em; }
   .price__notice li {
     margin: 15px 0; }
 
@@ -875,7 +876,8 @@ input.wpcf7-form-control.wpcf7-submit {
   .bread {
     line-height: 20px; }
   .merit {
-    height: auto; }
+    height: auto;
+    padding-bottom: 10px; }
     .merit h3 {
       color: white;
       padding-top: 50px;
@@ -913,7 +915,7 @@ input.wpcf7-form-control.wpcf7-submit {
       border-color: gold; }
   .price__title {
     line-height: 1.3em;
-    font-size: 1.7em;
+    font-size: 1.5em;
     padding-left: 0;
     margin-bottom: 10px;
     border-left: none;
