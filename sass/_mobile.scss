@@ -178,6 +178,11 @@
 
     .top {
         height: 450px;
+
+        &__btn {
+            width: 80%;
+            margin: 2em auto;
+        }
     }
 
     .philosophy {

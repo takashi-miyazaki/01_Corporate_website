@@ -4,12 +4,13 @@
     object-fit: cover;
 
     &__img {
+        overflow: hidden;
         position: relative;
         opacity: 0.5;
 
         img {
             height: 190px;
-            width: 100%;
+            // width: 100%;
         }
     }
 
