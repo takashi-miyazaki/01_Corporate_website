@@ -177,11 +177,16 @@
       }    
 
     .top {
-        height: 450px;
+        height: 33vh;
+
+        h3 {
+            font-size: 8.5vw;
+        }
 
         &__btn {
-            width: 80%;
-            margin: 2em auto;
+            font-size: 4vw;
+            width: 60%;
+            margin: 2vh auto;
         }
     }
 
@@ -190,11 +195,23 @@
         border: solid 15px #efefef;
         background-color: transparent;
 
+        &__body {
+            h3 {
+                font-size: 3.8vw;
+            }
+
+            p {
+                font-size: 3vw;
+            }
+        }
+
 
         &__btn {
-            margin: 40px auto 20px auto;
-            width: 95%;
-            font-size: 14px;
+            margin: 4vh auto 2vh auto;
+            width: 80%;
+            font-size: 3vw;
+            height: 8vh;
+            line-height: 8vh;
         }
     }   
     
@@ -210,14 +227,14 @@
         h3 {
             color: white;
             padding-top: 50px;
-            font-size: 34px;
+            font-size: 4.8vw;
             width: 70%;
             margin: 0 auto;
         }
 
         h4 {
             color: white;
-            font-size: 16px;
+            font-size: 3.5vw;
             width: 90%;
             margin: 0 auto;
         }
@@ -228,24 +245,35 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            padding-top: 3vh;
         }
 
         &__blk {
-            width: 90%;
+            width: 70%;
             height: auto;
-            margin: 5px 0;
+            margin: 1vh 0;
 
             h5 {
+                font-size: 5vw;
                 padding-top: 30px;
             }
 
             p {
+                font-size: 6vw;
                 padding-bottom: 20px;
             }
         }
 
         &__btn {
-            width: 65%;
+            margin: 4vh auto 2vh auto;
+            width: 80%;
+            font-size: 1vw;
+            height: 8vh;
+            line-height: 8vh;
+
+            p {
+                font-size: 3.5vw;
+            }
         }
 
     }
@@ -285,8 +313,12 @@
     .service {
         height: auto;
 
+        span {
+            font-size: 7vw;
+        }
+
         h3 {
-            font-size: 36px;
+            font-size: 3.8vw;
             width: 75%;
             margin: 0 auto;
         }
@@ -294,6 +326,7 @@
         p {
             width: 75%;
             margin: 0 auto;
+            font-size: 3.4vw;
         }
 
         &__wrap {
@@ -314,9 +347,11 @@
         }
 
         &__btn {
-            margin: 40px auto 20px auto;
-            width: 90%;
-
+            margin: 4vh auto 2vh auto;
+            width: 80%;
+            font-size: 1vw;
+            height: 8vh;
+            line-height: 8vh;
         }
 
     }
@@ -352,14 +387,15 @@
         }
 
         &__txt h4 {
-            font-size: 34px;
-            margin: 40px auto 30px auto;
+            font-size: 4vw;
+            margin: 5vw auto 5vw auto;
             width: 80%;
         }
 
         &__txt p {
             width: 80%;
-            margin: 0 auto;
+            margin: 1vh auto;
+            font-size: 3.5vw;
         }
 
         &__wrap {
@@ -371,8 +407,10 @@
 
         &__btn {
             background-color: #333333;
-            margin: 40px auto 20px auto;
-            width: 90%;
+            margin: 4vw auto 2vw auto;
+            width: 70%;
+            height: 8vh;
+            line-height: 8vh;
 
             &:hover {
                 transition: all 0.3s ease;
@@ -388,6 +426,18 @@
     .work {
         height: auto;
         margin: 70px 15px;
+
+        span {
+            font-size: 7vw;
+        }
+
+        h3 {
+            font-size: 6vw;
+        }
+
+        p {
+            font-size: 4vw;
+        }
 
         &__wrap {
             display: flex;
@@ -410,8 +460,11 @@
         }
 
         &__btn {
-            margin: 40px auto 20px auto;
-            width: 90%;
+            margin: 4vh auto 2vh auto;
+            width: 80%;
+            font-size: 3.5vw;
+            height: 8vh;
+            line-height: 8vh;
 
         }
     }
@@ -543,6 +596,18 @@
         height: auto;
         // text-align: left;
 
+        span { 
+            font-size: 7vw;
+        }
+        
+        h3 {
+            font-size: 6vw;
+        }
+
+        p {
+            font-size: 4vw;
+        }
+
         &__wrap {
             display: flex;
             flex-direction: column;
@@ -562,19 +627,26 @@
 
             span{
                 text-align: left;
+                font-size: 7vw;
+
             }
             h4 {
                 text-align: left;
+
             }
             p {
                 text-align: left;
+
             }
 
         }
 
         &__btn {
-            margin: 40px auto 20px auto;
-            width: 90%;
+            margin: 4vh auto 2vh auto;
+            width: 80%;
+            font-size: 3.5vw;
+            height: 8vh;
+            line-height: 8vh;
 
         }
     }
@@ -634,22 +706,46 @@
         }
 
         &__btn {
-            margin: 40px auto 20px auto;
-            width: 90%;
+            margin: 4vh auto 2vh auto;
+            width: 80%;
+            font-size: 3.5vw;
+            height: 8vh;
+            line-height: 8vh;
 
         }
     }
     
     .contact {
+        height: 50vh;
+        padding-top: 10vh;
+
+        span {
+            font-size: 6vw;
+        }
+
+        p {
+            font-size: 3vw;
+        }
 
         &__btn {
-                font-size: 20px;
-                width: 95%;
+            margin: 4vh auto 2vh auto;
+            width: 50%;
+            font-size: 3.5vw;
+            height: 8vh;
+            line-height: 8vh;
+
         }
     }
 
     .contactsgl {
         &__btn {
+            
+                margin: 4vh auto 2vh auto;
+                width: 80%;
+                font-size: 3.5vw;
+                height: 8vh;
+                line-height: 8vh;
+
             p {
                 margin-left: 15px;
             }
