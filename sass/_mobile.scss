@@ -341,7 +341,7 @@
             margin: 5px auto;
 
             img  {
-                max-width: initial;
+                // max-width: initial;
                 width: 100%;
             }
         }
@@ -615,9 +615,9 @@
         }
 
         &__blk {
-            width: 90%;
+            width: 80%;
             height: auto;
-            margin: 5px auto;
+            margin: 2vh auto;
 
             img  {
                 // max-width: initial;
@@ -627,15 +627,17 @@
 
             span{
                 text-align: left;
-                font-size: 7vw;
+                font-size: 3vw;
 
             }
             h4 {
                 text-align: left;
+                font-size: 4.5vw;
 
             }
             p {
                 text-align: left;
+                font-size: 4.6vw;
 
             }
 
@@ -720,18 +722,20 @@
         padding-top: 10vh;
 
         span {
-            font-size: 6vw;
+            font-size: 9vw;
         }
 
         p {
             font-size: 3vw;
+            background-color: #000;
+            opacity: 0.8;
         }
 
         &__btn {
             margin: 4vh auto 2vh auto;
             width: 50%;
             font-size: 3.5vw;
-            height: 8vh;
+            height: 10vh;
             line-height: 8vh;
 
         }
@@ -744,7 +748,7 @@
                 width: 80%;
                 font-size: 3.5vw;
                 height: 8vh;
-                line-height: 8vh;
+                line-height: 10vh;
 
             p {
                 margin-left: 15px;
@@ -765,6 +769,9 @@
     }
 
     .footer {
+        li {
+            font-size: 3.5vw;
+        }
         &__menu {
             padding-bottom: 20px;
         }

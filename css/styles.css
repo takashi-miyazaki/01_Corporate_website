@@ -965,7 +965,6 @@ input.wpcf7-form-control.wpcf7-submit {
       height: auto;
       margin: 5px auto; }
       .service__blk img {
-        max-width: initial;
         width: 100%; }
     .service__btn {
       margin: 4vh auto 2vh auto;
@@ -1121,18 +1120,21 @@ input.wpcf7-form-control.wpcf7-submit {
       flex-direction: column;
       align-items: center; }
     .contents__blk {
-      width: 90%;
+      width: 80%;
       height: auto;
-      margin: 5px auto; }
+      margin: 2vh auto; }
       .contents__blk img {
         text-align: center;
         width: 100%; }
       .contents__blk span {
-        text-align: left; }
+        text-align: left;
+        font-size: 3vw; }
       .contents__blk h4 {
-        text-align: left; }
+        text-align: left;
+        font-size: 4.5vw; }
       .contents__blk p {
-        text-align: left; }
+        text-align: left;
+        font-size: 4.6vw; }
     .contents__btn {
       margin: 4vh auto 2vh auto;
       width: 80%;
@@ -1178,21 +1180,23 @@ input.wpcf7-form-control.wpcf7-submit {
     height: 50vh;
     padding-top: 10vh; }
     .contact span {
-      font-size: 6vw; }
+      font-size: 9vw; }
     .contact p {
-      font-size: 3vw; }
+      font-size: 3vw;
+      background-color: #000;
+      opacity: 0.8; }
     .contact__btn {
       margin: 4vh auto 2vh auto;
       width: 50%;
       font-size: 3.5vw;
-      height: 8vh;
+      height: 10vh;
       line-height: 8vh; }
   .contactsgl__btn {
     margin: 4vh auto 2vh auto;
     width: 80%;
     font-size: 3.5vw;
     height: 8vh;
-    line-height: 8vh; }
+    line-height: 10vh; }
     .contactsgl__btn p {
       margin-left: 15px; }
   footer {
@@ -1203,6 +1207,8 @@ input.wpcf7-form-control.wpcf7-submit {
       text-align: left;
       margin: 0;
       border-bottom: #c1c1c1 1px solid; }
+  .footer li {
+    font-size: 3.5vw; }
   .footer__menu {
     padding-bottom: 20px; }
   .footer__info {
