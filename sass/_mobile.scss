@@ -190,6 +190,13 @@
         }
     }
 
+    .blogtop {
+        &__letter {
+            font-size: 6vw;
+        }
+
+    }
+
     .philosophy {
         height: auto;
         border: solid 15px #efefef;
@@ -283,7 +290,7 @@
 
         &__title {
             line-height: 1.3em;
-            font-size: 1.7em;
+            font-size: 4vw;
             padding-left: 0;
             margin-bottom: 10px;
             border-left: none;
@@ -291,12 +298,16 @@
             border-color: gold;
         }
 
+        &__dscptn {
+            font-size: 3.5vw;
+        }
+
     }
 
     .price {
         &__title {
             line-height: 1.3em;
-            font-size: 1.5em;
+            font-size: 4vw;
             padding-left: 0;
             margin-bottom: 10px;
             border-left: none;
@@ -305,7 +316,19 @@
         }
 
         &__text {
-            font-size: 1.5em;
+            font-size: 4vw
+        }
+
+        &__expln {
+            font-size: 3.5vw;
+        }
+
+        &__notice {
+            font-size: 3.5vw;
+
+            h4 {
+                font-size: 3.5vw;
+            }
         }
         
     } 
@@ -358,6 +381,12 @@
 
     .vision {
         width: 80%;
+
+        &__ttl {
+            h4 {
+                font-size: 7vw;
+            }
+        }
     }
 
     .srvsingle {
@@ -367,9 +396,17 @@
             display: block;
         }
 
+        &__expln {
+            font-size: 3.5vw;
+
+            h4 {
+                font-size: 3.5vw;
+            }
+        }
+
         &__title {
             line-height: 1.3em;
-            font-size: 1.7em;
+            font-size: 5vw;
             padding-left: 0;
             margin-bottom: 10px;
             border-left: none;
@@ -675,6 +712,10 @@
         height: auto;
         // text-align: left;
         height: 20px 10px;
+
+        span {
+            font-size: 4vw;
+        }
 
         &__wrap {
             display: flex;
