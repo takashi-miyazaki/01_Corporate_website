@@ -95,8 +95,8 @@ nav {
     justify-content: space-around;
     padding-top: 50px; }
   .merit__blk {
-    width: 270px;
-    height: 260px;
+    width: 240px;
+    height: 250px;
     background-color: white; }
     .merit__blk h5 {
       color: #ffcb08;
@@ -134,7 +134,7 @@ nav {
   .service__blk {
     width: 280px; }
     .service__blk img {
-      max-width: 280px; }
+      max-width: 230px; }
   .service__btn {
     background-color: #ffcb08;
     margin: 60px auto;
@@ -155,11 +155,13 @@ nav {
     display: flex;
     justify-content: space-around;
     margin-top: 50px; }
-  .topmsg__txt h4 {
-    font-size: 34px;
-    margin: 40px 0 30px 0; }
-  .topmsg__txt p {
-    margin-top: 5px; }
+  .topmsg__txt {
+    padding-left: 10px; }
+    .topmsg__txt h4 {
+      font-size: 34px;
+      margin: 40px 0 30px 0; }
+    .topmsg__txt p {
+      margin-top: 5px; }
   .topmsg__btn {
     background-color: #ffcb08;
     color: white;
@@ -191,9 +193,9 @@ nav {
     justify-content: space-around;
     padding-top: 50px; }
   .work__blk {
-    width: 280px; }
+    width: 230px; }
     .work__blk img {
-      max-width: 280px; }
+      max-width: 230px; }
   .work__btn {
     background-color: #ffcb08;
     color: black;
@@ -230,10 +232,10 @@ nav {
     background-color: white;
     overflow: hidden;
     height: 380px;
-    width: 280px;
+    width: 240px;
     padding: 20px; }
     .contents__blk img {
-      max-width: 240px; }
+      max-width: 200px; }
     .contents__blk span {
       font-size: 14px;
       color: black; }
@@ -271,8 +273,10 @@ nav {
     padding-top: 10px; }
   .contact__btn {
     margin: 20px auto 20px auto;
+    padding: 13px;
     width: 320px;
     height: 70px;
+    font-size: 2vw;
     border: white 5px solid;
     color: white; }
     .contact__btn:hover {
@@ -490,21 +494,22 @@ footer {
   .blogcontents__wrap {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 1180px;
+    justify-content: space-around;
+    width: 100%;
     margin: 0 auto; }
   .blogcontents__blk {
     background-color: white;
     height: 380px;
-    width: 280px;
+    width: 24%;
     padding: 20px;
     margin: 20px 0;
     overflow: hidden; }
     .blogcontents__blk img {
-      max-width: 240px; }
+      max-width: 200px; }
     .blogcontents__blk span {
       font-size: 14px;
-      color: black; }
+      color: black;
+      font-size: 2vw; }
     .blogcontents__blk h4 {
       font-size: 18px; }
     .blogcontents__blk p {
@@ -710,7 +715,6 @@ input.wpcf7-form-control.wpcf7-submit {
       font-size: 1.3em;
       margin: 10px 0; }
     .price__expln ul {
-      list-style: none;
       font-size: 1em; }
     .price__expln li {
       margin: 15px 0; }
@@ -718,7 +722,6 @@ input.wpcf7-form-control.wpcf7-submit {
     font-size: 1.3em;
     margin: 10px 0; }
   .price__notice ul {
-    list-style: none;
     font-size: 1em; }
   .price__notice li {
     margin: 15px 0; }
@@ -1159,13 +1162,15 @@ input.wpcf7-form-control.wpcf7-submit {
       width: 90%; }
     .blogcontents__blk {
       height: auto;
-      margin: 5px auto; }
+      margin: 5px auto;
+      width: 100%; }
       .blogcontents__blk img {
         text-align: center;
         width: 100%; }
       .blogcontents__blk span {
         text-align: left;
-        display: block; }
+        display: block;
+        font-size: 2vw; }
       .blogcontents__blk h4 {
         text-align: left; }
       .blogcontents__blk p {
@@ -1189,8 +1194,7 @@ input.wpcf7-form-control.wpcf7-submit {
       margin: 4vh auto 2vh auto;
       width: 50%;
       font-size: 3.5vw;
-      height: 10vh;
-      line-height: 8vh; }
+      height: 9.5vh; }
   .contactsgl__btn {
     margin: 4vh auto 2vh auto;
     width: 80%;

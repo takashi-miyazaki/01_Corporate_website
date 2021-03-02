@@ -9,7 +9,7 @@
             display: none;
         }
 
-        // モバイル版のヘッダーを1200px切ったら切り替えて表示
+        // モバイル版のヘッダーを1000px切ったら切り替えて表示
         &__mobile {
             height: 75px;
             // min-height: 100vh;
@@ -687,6 +687,7 @@
             // width: 90%;
             height: auto;
             margin: 5px auto;
+            width: 100%;
 
             img  {
                 // max-width: initial;
@@ -697,6 +698,7 @@
             span{
                 text-align: left;
                 display: block;
+                font-size: 2vw;
             }
             h4 {
                 text-align: left;
@@ -735,8 +737,8 @@
             margin: 4vh auto 2vh auto;
             width: 50%;
             font-size: 3.5vw;
-            height: 10vh;
-            line-height: 8vh;
+            height: 9.5vh;
+            // line-height: 8vh;
 
         }
     }
