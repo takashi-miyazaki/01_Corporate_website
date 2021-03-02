@@ -519,7 +519,8 @@ footer {
   width: 80%;
   margin: 50px auto 0 auto; }
   .recruit__lead {
-    margin: 50px; }
+    margin: 0 auto;
+    width: 80%; }
   .recruit__sbtitle {
     background-color: #f5f5f5;
     border-left: solid 10px #C1C1C1;
@@ -537,7 +538,8 @@ footer {
   margin: 0 auto; }
   .contactsgl__head {
     text-align: center;
-    margin-bottom: 80px; }
+    margin-bottom: 80px;
+    margin-top: 30px; }
   .contactsgl__form {
     width: 100%; }
     .contactsgl__form input {
@@ -874,6 +876,8 @@ input.wpcf7-form-control.wpcf7-submit {
       font-size: 4vw;
       width: 60%;
       margin: 2vh auto; }
+  .blogtop__letter {
+    font-size: 6vw; }
   .philosophy {
     height: auto;
     border: solid 15px #efefef;
@@ -931,22 +935,30 @@ input.wpcf7-form-control.wpcf7-submit {
     width: 90%; }
     .seminar__title {
       line-height: 1.3em;
-      font-size: 1.7em;
+      font-size: 4vw;
       padding-left: 0;
       margin-bottom: 10px;
       border-left: none;
       border-bottom: solid 10px;
       border-color: gold; }
+    .seminar__dscptn {
+      font-size: 3.5vw; }
   .price__title {
     line-height: 1.3em;
-    font-size: 1.5em;
+    font-size: 4vw;
     padding-left: 0;
     margin-bottom: 10px;
     border-left: none;
     border-bottom: solid 10px;
     border-color: gold; }
   .price__text {
-    font-size: 1.5em; }
+    font-size: 4vw; }
+  .price__expln {
+    font-size: 3.5vw; }
+  .price__notice {
+    font-size: 3.5vw; }
+    .price__notice h4 {
+      font-size: 3.5vw; }
   .service {
     height: auto; }
     .service span {
@@ -977,13 +989,19 @@ input.wpcf7-form-control.wpcf7-submit {
       line-height: 8vh; }
   .vision {
     width: 80%; }
+    .vision__ttl h4 {
+      font-size: 7vw; }
   .srvsingle {
     width: 80%; }
     .srvsingle__blk {
       display: block; }
+    .srvsingle__expln {
+      font-size: 3.5vw; }
+      .srvsingle__expln h4 {
+        font-size: 3.5vw; }
     .srvsingle__title {
       line-height: 1.3em;
-      font-size: 1.7em;
+      font-size: 5vw;
       padding-left: 0;
       margin-bottom: 10px;
       border-left: none;
@@ -1155,6 +1173,8 @@ input.wpcf7-form-control.wpcf7-submit {
   .blogcontents {
     height: auto;
     height: 20px 10px; }
+    .blogcontents span {
+      font-size: 4vw; }
     .blogcontents__wrap {
       display: flex;
       flex-direction: column;
