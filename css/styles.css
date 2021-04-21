@@ -1722,6 +1722,9 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     margin: 0;
     border-bottom: #c1c1c1 1px solid;
   }
+  footer a {
+    display: block;
+  }
   .footer li {
     font-size: 3.5vw;
   }
