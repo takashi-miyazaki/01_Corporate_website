@@ -686,6 +686,7 @@ footer li {
 
 .blogtop__img img {
   height: 190px;
+  width: 100%;
 }
 
 .blogtop__letter {

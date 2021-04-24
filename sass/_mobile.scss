@@ -195,7 +195,7 @@
 
     .blogtop {
         &__letter {
-            font-size: 6vw;
+            font-size: 3vw;
         }
 
     }
@@ -293,7 +293,7 @@
 
         &__title {
             line-height: 1.3em;
-            font-size: 7vw;
+            font-size: 3vw;
             padding-left: 0;
             margin-bottom: 10px;
             border-left: none;
@@ -302,7 +302,7 @@
         }
 
         &__dscptn {
-            font-size: 3.5vw;
+            font-size: 2.5vw;
         }
 
     }
@@ -469,15 +469,15 @@
         margin: 70px 15px;
 
         span {
-            font-size: 7vw;
+            font-size: 5vw;
         }
 
         h3 {
-            font-size: 6vw;
+            font-size: 4vw;
         }
 
         p {
-            font-size: 4vw;
+            font-size: 2vw;
         }
 
         &__wrap {
@@ -502,9 +502,9 @@
 
         &__btn {
             margin: 4vh auto 2vh auto;
-            width: 80%;
+            width: 50%;
             font-size: 3.5vw;
-            height: 8vh;
+            height: 80px;
             line-height: 8vh;
 
         }
@@ -847,4 +847,17 @@
         }   
         
     }
+}
+
+@media screen and (max-width: 500px) {
+    .work {
+        &__btn {
+            margin: 4vh auto 2vh auto;
+            width: 80%;
+            font-size: 3.5vw;
+            height: 8vh;
+            line-height: 8vh;
+        }
+    }
+
 }
