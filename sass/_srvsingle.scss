@@ -27,6 +27,7 @@
 
     &__blk {
         display: flex;
+        justify-content: space-evenly;
     }
 
     &__img {
@@ -36,11 +37,11 @@
         }
     }
     &__title {
-        line-height: 45px;
-        font-size: 28px;
+        line-height: 30px;
+        font-size: 25px;
         padding-left: 50px;
         margin-bottom: 35px;
-        border-left: solid 30px;
+        border-left: solid 20px;
         border-color: gold;
     }
 
