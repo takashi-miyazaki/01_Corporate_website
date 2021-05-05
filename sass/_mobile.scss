@@ -145,6 +145,10 @@
             padding: 10px 10px;
             border-bottom: solid 1px ;
         }
+
+        a {
+            display: block;
+        }
       
     }
 
@@ -169,22 +173,22 @@
       }
 
     .top {
-        height: 33vh;
+        height: 300px;
 
         h3 {
-            font-size: 8.5vw;
+            font-size: 43px;
         }
 
         &__btn {
-            font-size: 4vw;
-            width: 60%;
-            margin: 2vh auto;
+            font-size: 20px;
+            width: 300px;
+            margin: 20px 70px;
         }
     }
 
     .blogtop {
         &__letter {
-            font-size: 3vw;
+            font-size: 25px;
         }
 
     }
@@ -196,21 +200,21 @@
 
         &__body {
             h3 {
-                font-size: 3.8vw;
+                font-size: 20px;
             }
 
             p {
-                font-size: 3vw;
+                font-size: 15px;
             }
         }
 
 
         &__btn {
-            margin: 4vh auto 2vh auto;
-            width: 80%;
-            font-size: 3vw;
-            height: 8vh;
-            line-height: 8vh;
+            margin: 30px auto ;
+            width: 300px;
+            font-size: 15px;
+            height: 60px;
+            line-height: 60px;
         }
     }   
     
@@ -282,7 +286,7 @@
 
         &__title {
             line-height: 1.3em;
-            font-size: 3vw;
+            font-size: 20px;
             padding-left: 0;
             margin-bottom: 10px;
             border-left: none;
@@ -291,7 +295,7 @@
         }
 
         &__dscptn {
-            font-size: 2.5vw;
+            font-size: 15px;
         }
 
     }
@@ -299,7 +303,7 @@
     .price {
         &__title {
             line-height: 1.3em;
-            font-size: 4vw;
+            font-size: 25px;
             padding-left: 0;
             margin-bottom: 10px;
             border-left: none;
@@ -307,19 +311,36 @@
             border-color: gold;
         }
 
+        &__blk {
+            margin-bottom: 70px;
+        }
+
         &__text {
-            font-size: 4vw
+            font-size: 20px;
         }
 
         &__expln {
-            font-size: 3.5vw;
+            // font-size: 15px;
+            margin-top: 30px;
+
+            h4 {
+                font-size: 18px;
+            }
+            
+            ul {
+                font-size: 15px;
+            }
         }
 
         &__notice {
-            font-size: 3.5vw;
+            // font-size: 3.5vw;
 
             h4 {
-                font-size: 3.5vw;
+                font-size: 18px;
+            }
+
+            ul {
+                font-size: 15px;
             }
         }
         
@@ -416,16 +437,20 @@
             max-width: 45%;
         }
 
-        &__txt h4 {
-            font-size: 5vw;
-            margin: 5vw auto 5vw auto;
+        &__txt{
+            padding: 0;
+        
+        h4 {
+            font-size: 25px;
+            margin: 30px auto 20px auto;
             width: 80%;
         }
 
-        &__txt p {
+        p {
             width: 95%;
-            margin: 1vh auto;
-            font-size: 3.5vw;
+            margin: 15px auto;
+            font-size: 15px;
+        }
         }
 
         &__wrap {
@@ -455,18 +480,18 @@
 
     .work {
         height: auto;
-        margin: 70px 15px;
+        margin: 70px 30px;
 
         span {
-            font-size: 5vw;
+            font-size: 30px;
         }
 
         h3 {
-            font-size: 4vw;
+            font-size: 20px;
         }
 
         p {
-            font-size: 2vw;
+            font-size: 15px;
         }
 
         &__wrap {
@@ -490,11 +515,11 @@
         }
 
         &__btn {
-            margin: 4vh auto 2vh auto;
+            margin: 30px auto 15px auto;
             width: 50%;
-            font-size: 3.5vw;
-            height: 80px;
-            line-height: 8vh;
+            // font-size: 3.5vw;
+            height: 50px;
+            line-height: 50px;
 
         }
     }
@@ -517,6 +542,10 @@
 
         &__menu {
             display: block;
+
+            a {
+                display: block;
+            }
         }
     }
 
@@ -625,29 +654,31 @@
     .contents {
         height: auto;
         // text-align: left;
+        padding-top: 30px;
 
         span { 
-            font-size: 7vw;
+            font-size: 25px;
         }
         
         h3 {
-            font-size: 6vw;
+            font-size: 25px;
         }
 
         p {
-            font-size: 4vw;
+            font-size: 15px;
         }
 
         &__wrap {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: normal;
+
         }
 
         &__blk {
             width: 80%;
             height: auto;
-            margin: 2vh auto;
+            margin: 15px auto;
 
             img  {
                 // max-width: initial;
@@ -657,28 +688,28 @@
 
             span{
                 text-align: left;
-                font-size: 3vw;
+                font-size: 12px;
 
             }
             h4 {
                 text-align: left;
-                font-size: 4.5vw;
+                font-size: 18px;
 
             }
             p {
                 text-align: left;
-                font-size: 4.6vw;
+                font-size: 12px;
 
             }
 
         }
 
         &__btn {
-            margin: 4vh auto 2vh auto;
+            // margin: 30px auto 10px auto;
             width: 80%;
-            font-size: 3.5vw;
-            height: 8vh;
-            line-height: 8vh;
+            // font-size: 3.5vw;
+            height: 60px;
+            line-height: 60px;
 
         }
     }
@@ -754,24 +785,25 @@
     }
     
     .contact {
-        height: 50vh;
-        padding-top: 10vh;
+        height: 300px;
+        padding-top: 20px;
 
         span {
-            font-size: 9vw;
+            font-size: 35px;
         }
 
         p {
-            font-size: 3vw;
+            font-size: 15px;
             background-color: #000;
             opacity: 0.8;
+            margin-top: 15px;
         }
 
         &__btn {
             margin: 4vh auto 2vh auto;
-            width: 50%;
-            font-size: 3.5vw;
-            height: 9.5vh;
+            width: 45%;
+            font-size: 18px;
+            height: 60px;
             // line-height: 8vh;
 
         }
@@ -828,6 +860,12 @@
         &__info {
         text-align: center;
         padding: 0;
+        margin: 10px;
+            
+            span {
+                display: block;
+            }
+
     
             p:nth-child(1) {
             text-align: left;
@@ -1023,8 +1061,12 @@
     }
 
     .blogtop {
+        &__img {
+            height: 100px;
+        }
+
         &__letter {
-            font-size: 3vw;
+            font-size: 18px;
         }
 
     }
@@ -1137,9 +1179,13 @@
     }
 
     .price {
+        &__blk {
+            margin: 50px 0;
+        }
+
         &__title {
             line-height: 1.3em;
-            font-size: 4vw;
+            font-size: 20px;
             padding-left: 0;
             margin-bottom: 10px;
             border-left: none;
@@ -1148,18 +1194,19 @@
         }
 
         &__text {
-            font-size: 4vw
+            font-size: 15px;
         }
 
         &__expln {
-            font-size: 3.5vw;
+            font-size: 15px;
+            margin: 30px auto;
         }
 
         &__notice {
             font-size: 3.5vw;
 
             h4 {
-                font-size: 3.5vw;
+                font-size: 15px;
             }
         }
         
@@ -1227,23 +1274,25 @@
         }
 
         &__expln {
-            font-size: 3.5vw;
+            // font-size: 18px;
+            margin-bottom: 15px;
+
 
             h4 {
-                font-size: 5vw;
+                font-size: 18px;
             }
             p {
-                font-size: 4vw;
+                font-size: 15px;
             }
         }
 
         &__title {
             line-height: 1.3em;
-            font-size: 6vw;
+            font-size: 20px;
             padding-left: 0;
             margin-bottom: 10px;
             border-left: none;
-            border-bottom: solid 10px;
+            border-bottom: solid 5px;
             border-color: gold;
         }
 
@@ -1295,18 +1344,18 @@
 
     .work {
         height: auto;
-        margin: 70px 15px;
+        margin: 70px 30px;
 
         span {
-            font-size: 5vw;
+            font-size: 30px;
         }
 
         h3 {
-            font-size: 4vw;
+            font-size: 20px;
         }
 
         p {
-            font-size: 2vw;
+            font-size: 15px;
         }
 
         &__wrap {
@@ -1330,17 +1379,19 @@
         }
 
         &__btn {
-            margin: 4vh auto 2vh auto;
-            width: 50%;
-            font-size: 3.5vw;
-            height: 80px;
-            line-height: 8vh;
+            margin: 30px auto 10px auto;
+            width: 80%;
+            // font-size: 3.5vw;
+            height: 50px;
+            line-height: 50px;
 
         }
     }
 
     .wrksingle {
         width: 90%;
+        margin-top: 20px;
+
 
         &__info {
             td {
@@ -1364,7 +1415,7 @@
         display: block;
         justify-content: center;
         list-style: none;
-        margin: 50px 0;
+        margin: 20px 0;
         
         li {
             padding: 5px 20px;
@@ -1382,7 +1433,7 @@
         display: block;
         justify-content: center;
         list-style: none;
-        margin: 50px 0;
+        margin: 20px 0;
         
         li {
             padding: 5px 20px;
@@ -1399,7 +1450,7 @@
         display: block;
         justify-content: center;
         list-style: none;
-        margin: 50px 0;
+        margin: 20px 0;
         
         li {
             padding: 5px 20px;
@@ -1415,7 +1466,7 @@
         display: block;
         justify-content: center;
         list-style: none;
-        margin: 50px 0;
+        margin: 20px 0;
         
         li {
             padding: 5px 20px;
@@ -1432,7 +1483,7 @@
         display: block;
         justify-content: center;
         list-style: none;
-        margin: 50px 0;
+        margin: 20px 0;
         
         li {
             padding: 5px 20px;
@@ -1467,27 +1518,30 @@
         // text-align: left;
 
         span { 
-            font-size: 7vw;
+            font-size: 28px;
         }
         
         h3 {
-            font-size: 6vw;
+            font-size: 20px;
+            padding: 10px 0;
         }
 
         p {
-            font-size: 4vw;
+            font-size: 15px;
         }
 
         &__wrap {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: normal;
+            padding-top: 0;
         }
 
         &__blk {
-            width: 80%;
+            // width: 90%;
             height: auto;
-            margin: 2vh auto;
+            margin: 30px auto 10px auto;
+            width: 80%;
 
             img  {
                 // max-width: initial;
@@ -1497,33 +1551,39 @@
 
             span{
                 text-align: left;
-                font-size: 3vw;
-
+                display: block;
+                font-size: 10px;
             }
             h4 {
                 text-align: left;
-                font-size: 4.5vw;
-
+                font-size: 18px;
             }
             p {
                 text-align: left;
-                font-size: 4.6vw;
-
+                font-size: 12px;
             }
 
         }
 
         &__btn {
-            margin: 4vh auto 2vh auto;
+            // margin: 4vh auto 2vh auto;
             width: 80%;
-            font-size: 3.5vw;
-            height: 8vh;
-            line-height: 8vh;
+            // font-size: 3.5vw;
+            height: 60px;
+            line-height: 60px;
 
         }
     }
 
     .single {
+        &__titlebox {
+            margin-top: 25px;
+
+            h2 {
+                font-size: 30px;
+            }
+        }
+
         &__text {
 
             h3{
@@ -1546,9 +1606,9 @@
         // text-align: left;
         height: 20px 10px;
 
-        span {
-            font-size: 4vw;
-        }
+        // span {
+        //     font-size: 4vw;
+        // }
 
         &__wrap {
             display: flex;
@@ -1560,7 +1620,7 @@
         &__blk {
             // width: 90%;
             height: auto;
-            margin: 5px auto;
+            margin: 30px auto 10px auto;
             width: 100%;
 
             img  {
@@ -1572,7 +1632,7 @@
             span{
                 text-align: left;
                 display: block;
-                font-size: 2vw;
+                font-size: 13px;
             }
             h4 {
                 text-align: left;
@@ -1584,11 +1644,11 @@
         }
 
         &__btn {
-            margin: 4vh auto 2vh auto;
+            // margin: 4vh auto 2vh auto;
             width: 80%;
-            font-size: 3.5vw;
-            height: 8vh;
-            line-height: 8vh;
+            // font-size: 3.5vw;
+            height: 60px;
+            line-height: 60px;
 
         }
     }
@@ -1608,10 +1668,11 @@
         }
 
         &__btn {
-            margin: 4vh auto 2vh auto;
-            width: 50%;
-            font-size: 3.5vw;
-            height: 9.5vh;
+            margin: 20px auto;
+            width: 60%;
+            font-size: 12px;
+            height: 50px;
+            padding: 10px;
             // line-height: 8vh;
 
         }
@@ -1619,7 +1680,6 @@
 
     .contactsgl {
         &__btn {
-            
                 margin: 4vh auto 2vh auto;
                 width: 80%;
                 font-size: 3.5vw;

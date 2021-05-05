@@ -454,11 +454,11 @@ footer li {
 }
 
 .seminar__title {
-  line-height: 45px;
-  font-size: 30px;
+  line-height: 35px;
+  font-size: 25px;
   padding-left: 50px;
   margin-bottom: 35px;
-  border-left: solid 30px;
+  border-left: solid 25px;
   border-color: gold;
 }
 
@@ -1229,6 +1229,9 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     padding: 10px 10px;
     border-bottom: solid 1px;
   }
+  nav a {
+    display: block;
+  }
   .overlay {
     content: "";
     display: block;
@@ -1248,18 +1251,18 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     opacity: 1;
   }
   .top {
-    height: 33vh;
+    height: 300px;
   }
   .top h3 {
-    font-size: 8.5vw;
+    font-size: 43px;
   }
   .top__btn {
-    font-size: 4vw;
-    width: 60%;
-    margin: 2vh auto;
+    font-size: 20px;
+    width: 300px;
+    margin: 20px 70px;
   }
   .blogtop__letter {
-    font-size: 3vw;
+    font-size: 25px;
   }
   .philosophy {
     height: auto;
@@ -1267,17 +1270,17 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     background-color: transparent;
   }
   .philosophy__body h3 {
-    font-size: 3.8vw;
+    font-size: 20px;
   }
   .philosophy__body p {
-    font-size: 3vw;
+    font-size: 15px;
   }
   .philosophy__btn {
-    margin: 4vh auto 2vh auto;
-    width: 80%;
-    font-size: 3vw;
-    height: 8vh;
-    line-height: 8vh;
+    margin: 30px auto;
+    width: 300px;
+    font-size: 15px;
+    height: 60px;
+    line-height: 60px;
   }
   .bread {
     line-height: 20px;
@@ -1333,7 +1336,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   }
   .seminar__title {
     line-height: 1.3em;
-    font-size: 3vw;
+    font-size: 20px;
     padding-left: 0;
     margin-bottom: 10px;
     border-left: none;
@@ -1341,28 +1344,37 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     border-color: gold;
   }
   .seminar__dscptn {
-    font-size: 2.5vw;
+    font-size: 15px;
   }
   .price__title {
     line-height: 1.3em;
-    font-size: 4vw;
+    font-size: 25px;
     padding-left: 0;
     margin-bottom: 10px;
     border-left: none;
     border-bottom: solid 10px;
     border-color: gold;
   }
+  .price__blk {
+    margin-bottom: 70px;
+  }
   .price__text {
-    font-size: 4vw;
+    font-size: 20px;
   }
   .price__expln {
-    font-size: 3.5vw;
+    margin-top: 30px;
   }
-  .price__notice {
-    font-size: 3.5vw;
+  .price__expln h4 {
+    font-size: 18px;
+  }
+  .price__expln ul {
+    font-size: 15px;
   }
   .price__notice h4 {
-    font-size: 3.5vw;
+    font-size: 18px;
+  }
+  .price__notice ul {
+    font-size: 15px;
   }
   .service {
     height: auto;
@@ -1436,15 +1448,18 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   .topmsg img {
     max-width: 45%;
   }
+  .topmsg__txt {
+    padding: 0;
+  }
   .topmsg__txt h4 {
-    font-size: 5vw;
-    margin: 5vw auto 5vw auto;
+    font-size: 25px;
+    margin: 30px auto 20px auto;
     width: 80%;
   }
   .topmsg__txt p {
     width: 95%;
-    margin: 1vh auto;
-    font-size: 3.5vw;
+    margin: 15px auto;
+    font-size: 15px;
   }
   .topmsg__wrap {
     display: flex;
@@ -1466,16 +1481,16 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   }
   .work {
     height: auto;
-    margin: 70px 15px;
+    margin: 70px 30px;
   }
   .work span {
-    font-size: 5vw;
+    font-size: 30px;
   }
   .work h3 {
-    font-size: 4vw;
+    font-size: 20px;
   }
   .work p {
-    font-size: 2vw;
+    font-size: 15px;
   }
   .work__wrap {
     display: flex;
@@ -1491,11 +1506,10 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     width: 100%;
   }
   .work__btn {
-    margin: 4vh auto 2vh auto;
+    margin: 30px auto 15px auto;
     width: 50%;
-    font-size: 3.5vw;
-    height: 80px;
-    line-height: 8vh;
+    height: 50px;
+    line-height: 50px;
   }
   .wrksingle {
     width: 90%;
@@ -1508,6 +1522,9 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     width: 95%;
   }
   .works__menu {
+    display: block;
+  }
+  .works__menu a {
     display: block;
   }
   .betoc__menu {
@@ -1590,25 +1607,26 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   }
   .contents {
     height: auto;
+    padding-top: 30px;
   }
   .contents span {
-    font-size: 7vw;
+    font-size: 25px;
   }
   .contents h3 {
-    font-size: 6vw;
+    font-size: 25px;
   }
   .contents p {
-    font-size: 4vw;
+    font-size: 15px;
   }
   .contents__wrap {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: normal;
   }
   .contents__blk {
     width: 80%;
     height: auto;
-    margin: 2vh auto;
+    margin: 15px auto;
   }
   .contents__blk img {
     text-align: center;
@@ -1616,22 +1634,20 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   }
   .contents__blk span {
     text-align: left;
-    font-size: 3vw;
+    font-size: 12px;
   }
   .contents__blk h4 {
     text-align: left;
-    font-size: 4.5vw;
+    font-size: 18px;
   }
   .contents__blk p {
     text-align: left;
-    font-size: 4.6vw;
+    font-size: 12px;
   }
   .contents__btn {
-    margin: 4vh auto 2vh auto;
     width: 80%;
-    font-size: 3.5vw;
-    height: 8vh;
-    line-height: 8vh;
+    height: 60px;
+    line-height: 60px;
   }
   .single__text h3 {
     line-height: 1.3em;
@@ -1683,22 +1699,23 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     line-height: 8vh;
   }
   .contact {
-    height: 50vh;
-    padding-top: 10vh;
+    height: 300px;
+    padding-top: 20px;
   }
   .contact span {
-    font-size: 9vw;
+    font-size: 35px;
   }
   .contact p {
-    font-size: 3vw;
+    font-size: 15px;
     background-color: #000;
     opacity: 0.8;
+    margin-top: 15px;
   }
   .contact__btn {
     margin: 4vh auto 2vh auto;
-    width: 50%;
-    font-size: 3.5vw;
-    height: 9.5vh;
+    width: 45%;
+    font-size: 18px;
+    height: 60px;
   }
   .contactsgl__btn {
     margin: 4vh auto 2vh auto;
@@ -1736,6 +1753,10 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   .footer__info {
     text-align: center;
     padding: 0;
+    margin: 10px;
+  }
+  .footer__info span {
+    display: block;
   }
   .footer__info p:nth-child(1) {
     text-align: left;
@@ -1879,8 +1900,11 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     width: 60%;
     margin: 2vh auto;
   }
+  .blogtop__img {
+    height: 100px;
+  }
   .blogtop__letter {
-    font-size: 3vw;
+    font-size: 18px;
   }
   .philosophy {
     height: auto;
@@ -1964,9 +1988,12 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   .seminar__dscptn {
     font-size: 2.5vw;
   }
+  .price__blk {
+    margin: 50px 0;
+  }
   .price__title {
     line-height: 1.3em;
-    font-size: 4vw;
+    font-size: 20px;
     padding-left: 0;
     margin-bottom: 10px;
     border-left: none;
@@ -1974,16 +2001,17 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     border-color: gold;
   }
   .price__text {
-    font-size: 4vw;
+    font-size: 15px;
   }
   .price__expln {
-    font-size: 3.5vw;
+    font-size: 15px;
+    margin: 30px auto;
   }
   .price__notice {
     font-size: 3.5vw;
   }
   .price__notice h4 {
-    font-size: 3.5vw;
+    font-size: 15px;
   }
   .service {
     height: auto;
@@ -2034,21 +2062,21 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     display: block;
   }
   .srvsingle__expln {
-    font-size: 3.5vw;
+    margin-bottom: 15px;
   }
   .srvsingle__expln h4 {
-    font-size: 5vw;
+    font-size: 18px;
   }
   .srvsingle__expln p {
-    font-size: 4vw;
+    font-size: 15px;
   }
   .srvsingle__title {
     line-height: 1.3em;
-    font-size: 6vw;
+    font-size: 20px;
     padding-left: 0;
     margin-bottom: 10px;
     border-left: none;
-    border-bottom: solid 10px;
+    border-bottom: solid 5px;
     border-color: gold;
   }
   .topmsg {
@@ -2087,16 +2115,16 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   }
   .work {
     height: auto;
-    margin: 70px 15px;
+    margin: 70px 30px;
   }
   .work span {
-    font-size: 5vw;
+    font-size: 30px;
   }
   .work h3 {
-    font-size: 4vw;
+    font-size: 20px;
   }
   .work p {
-    font-size: 2vw;
+    font-size: 15px;
   }
   .work__wrap {
     display: flex;
@@ -2112,14 +2140,14 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     width: 100%;
   }
   .work__btn {
-    margin: 4vh auto 2vh auto;
-    width: 50%;
-    font-size: 3.5vw;
-    height: 80px;
-    line-height: 8vh;
+    margin: 30px auto 10px auto;
+    width: 80%;
+    height: 50px;
+    line-height: 50px;
   }
   .wrksingle {
     width: 90%;
+    margin-top: 20px;
   }
   .wrksingle__info td {
     padding: 0 10px;
@@ -2135,7 +2163,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     display: block;
     justify-content: center;
     list-style: none;
-    margin: 50px 0;
+    margin: 20px 0;
   }
   .betoc__menu li {
     padding: 5px 20px;
@@ -2148,7 +2176,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     display: block;
     justify-content: center;
     list-style: none;
-    margin: 50px 0;
+    margin: 20px 0;
   }
   .wordpress__menu li {
     padding: 5px 20px;
@@ -2161,7 +2189,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     display: block;
     justify-content: center;
     list-style: none;
-    margin: 50px 0;
+    margin: 20px 0;
   }
   .responsive__menu li {
     padding: 5px 20px;
@@ -2174,7 +2202,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     display: block;
     justify-content: center;
     list-style: none;
-    margin: 50px 0;
+    margin: 20px 0;
   }
   .international__menu li {
     padding: 5px 20px;
@@ -2187,7 +2215,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     display: block;
     justify-content: center;
     list-style: none;
-    margin: 50px 0;
+    margin: 20px 0;
   }
   .store__menu li {
     padding: 5px 20px;
@@ -2213,23 +2241,25 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     height: auto;
   }
   .contents span {
-    font-size: 7vw;
+    font-size: 28px;
   }
   .contents h3 {
-    font-size: 6vw;
+    font-size: 20px;
+    padding: 10px 0;
   }
   .contents p {
-    font-size: 4vw;
+    font-size: 15px;
   }
   .contents__wrap {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: normal;
+    padding-top: 0;
   }
   .contents__blk {
-    width: 80%;
     height: auto;
-    margin: 2vh auto;
+    margin: 30px auto 10px auto;
+    width: 80%;
   }
   .contents__blk img {
     text-align: center;
@@ -2237,22 +2267,27 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   }
   .contents__blk span {
     text-align: left;
-    font-size: 3vw;
+    display: block;
+    font-size: 10px;
   }
   .contents__blk h4 {
     text-align: left;
-    font-size: 4.5vw;
+    font-size: 18px;
   }
   .contents__blk p {
     text-align: left;
-    font-size: 4.6vw;
+    font-size: 12px;
   }
   .contents__btn {
-    margin: 4vh auto 2vh auto;
     width: 80%;
-    font-size: 3.5vw;
-    height: 8vh;
-    line-height: 8vh;
+    height: 60px;
+    line-height: 60px;
+  }
+  .single__titlebox {
+    margin-top: 25px;
+  }
+  .single__titlebox h2 {
+    font-size: 30px;
   }
   .single__text h3 {
     line-height: 1.3em;
@@ -2267,9 +2302,6 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     height: auto;
     height: 20px 10px;
   }
-  .blogcontents span {
-    font-size: 4vw;
-  }
   .blogcontents__wrap {
     display: flex;
     flex-direction: column;
@@ -2278,7 +2310,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   }
   .blogcontents__blk {
     height: auto;
-    margin: 5px auto;
+    margin: 30px auto 10px auto;
     width: 100%;
   }
   .blogcontents__blk img {
@@ -2288,7 +2320,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   .blogcontents__blk span {
     text-align: left;
     display: block;
-    font-size: 2vw;
+    font-size: 13px;
   }
   .blogcontents__blk h4 {
     text-align: left;
@@ -2297,11 +2329,9 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     text-align: left;
   }
   .blogcontents__btn {
-    margin: 4vh auto 2vh auto;
     width: 80%;
-    font-size: 3.5vw;
-    height: 8vh;
-    line-height: 8vh;
+    height: 60px;
+    line-height: 60px;
   }
   .contact {
     height: 50vh;
@@ -2316,10 +2346,11 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     opacity: 0.8;
   }
   .contact__btn {
-    margin: 4vh auto 2vh auto;
-    width: 50%;
-    font-size: 3.5vw;
-    height: 9.5vh;
+    margin: 20px auto;
+    width: 60%;
+    font-size: 12px;
+    height: 50px;
+    padding: 10px;
   }
   .contactsgl__btn {
     margin: 4vh auto 2vh auto;
