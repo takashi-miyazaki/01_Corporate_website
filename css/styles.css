@@ -451,6 +451,12 @@ footer li {
 .seminar__blk img {
   max-width: 800px;
   width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.seminar__blk p {
+  padding-top: 20px;
 }
 
 .seminar__title {
@@ -699,16 +705,15 @@ footer li {
 }
 
 .blogcontents {
-  padding-top: 50px;
+  padding: 20px 10px;
   text-align: center;
-  padding: 0 10px;
   background-color: #efefef;
 }
 
 .blogcontents__wrap {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 100%;
   margin: 0 auto;
 }
@@ -836,6 +841,7 @@ span.wpcf7-list-item input {
 
 input.wpcf7-form-control.wpcf7-submit {
   background-color: #ffcb08;
+  display: block;
   color: white;
   border: none;
   height: 70px;
@@ -893,12 +899,12 @@ input.wpcf7-form-control.wpcf7-submit:hover {
 
 .single__info {
   border-bottom: solid 1px black;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .single__img {
   margin: 30px auto;
-  width: 70%;
+  text-align: center;
 }
 
 .single__text {
@@ -917,6 +923,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
 
 .singleimg {
   width: 100%;
+  max-width: 500px;
   height: 100%;
 }
 
@@ -1017,6 +1024,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
 
 .price__img img {
   width: 70%;
+  max-width: 800px;
 }
 
 .price__title {
@@ -1292,13 +1300,13 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   .merit h3 {
     color: white;
     padding-top: 50px;
-    font-size: 4.8vw;
+    font-size: 20px;
     width: 70%;
     margin: 0 auto;
   }
   .merit h4 {
     color: white;
-    font-size: 3.5vw;
+    font-size: 18px;
     width: 90%;
     margin: 0 auto;
   }
@@ -1309,27 +1317,27 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     padding-top: 3vh;
   }
   .merit__blk {
-    width: 70%;
+    width: 50%;
     height: auto;
-    margin: 1vh 0;
+    margin: 15px 0;
   }
   .merit__blk h5 {
-    font-size: 5vw;
+    font-size: 25px;
     padding-top: 30px;
   }
   .merit__blk p {
-    font-size: 5vw;
+    font-size: 18px;
     padding-bottom: 20px;
   }
   .merit__btn {
-    margin: 4vh auto 2vh auto;
+    margin: 30px auto;
     width: 80%;
-    font-size: 1vw;
-    height: 8vh;
-    line-height: 8vh;
+    font-size: 18px;
+    height: 60px;
+    line-height: 60px;
   }
   .merit__btn p {
-    font-size: 3.5vw;
+    font-size: 18px;
   }
   .seminar {
     width: 90%;
@@ -1380,17 +1388,17 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     height: auto;
   }
   .service span {
-    font-size: 7vw;
+    font-size: 25px;
   }
   .service h3 {
-    font-size: 3.8vw;
+    font-size: 20px;
     width: 75%;
     margin: 0 auto;
   }
   .service p {
     width: 75%;
     margin: 5px auto;
-    font-size: 3.4vw;
+    font-size: 15px;
   }
   .service__wrap {
     display: flex;
@@ -1406,17 +1414,17 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     width: 100%;
   }
   .service__btn {
-    margin: 4vh auto 2vh auto;
+    margin: 30px auto;
     width: 80%;
-    font-size: 1vw;
-    height: 8vh;
-    line-height: 8vh;
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
   }
   .vision {
     width: 80%;
   }
   .vision__ttl {
-    font-size: 7vw;
+    font-size: 28px;
   }
   .srvsingle {
     width: 80%;
@@ -1425,21 +1433,21 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     display: block;
   }
   .srvsingle__expln {
-    font-size: 3.5vw;
+    margin-bottom: 10px;
   }
   .srvsingle__expln h4 {
-    font-size: 5vw;
+    font-size: 20px;
   }
   .srvsingle__expln p {
-    font-size: 4vw;
+    font-size: 15px;
   }
   .srvsingle__title {
     line-height: 1.3em;
-    font-size: 6vw;
+    font-size: 20px;
     padding-left: 0;
     margin-bottom: 10px;
     border-left: none;
-    border-bottom: solid 10px;
+    border-bottom: solid 5px;
     border-color: gold;
   }
   .topmsg {
@@ -1507,22 +1515,27 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   }
   .work__btn {
     margin: 30px auto 15px auto;
-    width: 50%;
+    width: 70%;
     height: 50px;
     line-height: 50px;
   }
   .wrksingle {
     width: 90%;
   }
+  .wrksingle__subtitle {
+    margin: 20px 0;
+  }
   .wrksingle__info td {
     padding: 0 10px;
-    line-height: 30px;
+    line-height: 50px;
   }
   .works__wrap {
     width: 95%;
   }
   .works__menu {
     display: block;
+    width: 80%;
+    margin: 40px auto 0 auto;
   }
   .works__menu a {
     display: block;
@@ -1531,7 +1544,11 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     display: block;
     justify-content: center;
     list-style: none;
-    margin: 50px 0;
+    width: 80%;
+    margin: 40px auto 0 auto;
+  }
+  .betoc__menu a {
+    display: block;
   }
   .betoc__menu li {
     padding: 5px 20px;
@@ -1544,7 +1561,11 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     display: block;
     justify-content: center;
     list-style: none;
-    margin: 50px 0;
+    width: 80%;
+    margin: 40px auto 0 auto;
+  }
+  .wordpress__menu a {
+    display: block;
   }
   .wordpress__menu li {
     padding: 5px 20px;
@@ -1557,7 +1578,11 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     display: block;
     justify-content: center;
     list-style: none;
-    margin: 50px 0;
+    width: 80%;
+    margin: 40px auto 0 auto;
+  }
+  .responsive__menu a {
+    display: block;
   }
   .responsive__menu li {
     padding: 5px 20px;
@@ -1570,7 +1595,11 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     display: block;
     justify-content: center;
     list-style: none;
-    margin: 50px 0;
+    width: 80%;
+    margin: 40px auto 0 auto;
+  }
+  .international__menu a {
+    display: block;
   }
   .international__menu li {
     padding: 5px 20px;
@@ -1583,7 +1612,11 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     display: block;
     justify-content: center;
     list-style: none;
-    margin: 50px 0;
+    width: 80%;
+    margin: 40px auto 0 auto;
+  }
+  .store__menu a {
+    display: block;
   }
   .store__menu li {
     padding: 5px 20px;
@@ -1596,7 +1629,11 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     display: block;
     justify-content: center;
     list-style: none;
-    margin: 50px 0;
+    width: 80%;
+    margin: 40px auto 0 auto;
+  }
+  .lp__menu a {
+    display: block;
   }
   .lp__menu li {
     padding: 5px 20px;
@@ -1649,6 +1686,15 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     height: 60px;
     line-height: 60px;
   }
+  .single {
+    margin: 20px auto 50px auto;
+  }
+  .single__info {
+    padding-bottom: 20px;
+  }
+  .single__titlebox h2 {
+    font-size: 25px;
+  }
   .single__text h3 {
     line-height: 1.3em;
     font-size: 1.7em;
@@ -1660,15 +1706,13 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   }
   .blogcontents {
     height: auto;
-    height: 20px 10px;
   }
   .blogcontents span {
-    font-size: 4vw;
+    font-size: 12px;
   }
   .blogcontents__wrap {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 90%;
   }
   .blogcontents__blk {
@@ -1683,7 +1727,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   .blogcontents__blk span {
     text-align: left;
     display: block;
-    font-size: 2vw;
+    font-size: 12px;
   }
   .blogcontents__blk h4 {
     text-align: left;
@@ -1718,17 +1762,14 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     height: 60px;
   }
   .contactsgl__btn {
-    margin: 4vh auto 2vh auto;
+    margin: 0 auto;
     width: 80%;
-    font-size: 3.5vw;
-    height: 8vh;
-    line-height: 10vh;
   }
   input.wpcf7-form-control.wpcf7-submit {
     background-color: #ffcb08;
+    display: block;
     color: white;
     border: none;
-    height: 60px;
     width: 80%;
   }
   footer {
@@ -1978,7 +2019,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   }
   .seminar__title {
     line-height: 1.3em;
-    font-size: 3vw;
+    font-size: 20px;
     padding-left: 0;
     margin-bottom: 10px;
     border-left: none;
@@ -1986,7 +2027,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     border-color: gold;
   }
   .seminar__dscptn {
-    font-size: 2.5vw;
+    font-size: 15px;
   }
   .price__blk {
     margin: 50px 0;
@@ -2158,12 +2199,13 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   }
   .works__menu {
     display: block;
+    margin: 40px auto 0 auto;
   }
   .betoc__menu {
     display: block;
     justify-content: center;
     list-style: none;
-    margin: 20px 0;
+    margin: 20px auto;
   }
   .betoc__menu li {
     padding: 5px 20px;
@@ -2176,7 +2218,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     display: block;
     justify-content: center;
     list-style: none;
-    margin: 20px 0;
+    margin: 20px auto;
   }
   .wordpress__menu li {
     padding: 5px 20px;
@@ -2189,7 +2231,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     display: block;
     justify-content: center;
     list-style: none;
-    margin: 20px 0;
+    margin: 20px auto;
   }
   .responsive__menu li {
     padding: 5px 20px;
@@ -2202,7 +2244,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     display: block;
     justify-content: center;
     list-style: none;
-    margin: 20px 0;
+    margin: 20px auto;
   }
   .international__menu li {
     padding: 5px 20px;
@@ -2215,7 +2257,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     display: block;
     justify-content: center;
     list-style: none;
-    margin: 20px 0;
+    margin: 20px auto;
   }
   .store__menu li {
     padding: 5px 20px;
@@ -2228,7 +2270,7 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     display: block;
     justify-content: center;
     list-style: none;
-    margin: 50px 0;
+    margin: 20px auto;
   }
   .lp__menu li {
     padding: 5px 20px;
@@ -2287,7 +2329,10 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     margin-top: 25px;
   }
   .single__titlebox h2 {
-    font-size: 30px;
+    font-size: 20px;
+  }
+  .single__info span {
+    font-size: 11px;
   }
   .single__text h3 {
     line-height: 1.3em;
@@ -2297,6 +2342,9 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     border-left: none;
     border-bottom: solid 10px;
     border-color: gold;
+  }
+  .single__text p {
+    font-size: 15px;
   }
   .blogcontents {
     height: auto;

@@ -11,12 +11,13 @@
 
     &__info {
         border-bottom: solid 1px black;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
     }
 
     &__img {
         margin: 30px auto;
-        width: 70%;
+        text-align: center;
+        // width: 70%;
     }
 
     &__text {
@@ -39,6 +40,7 @@
 
 .singleimg {
     width: 100%;
+    max-width: 500px;
     height: 100%;
 }
 

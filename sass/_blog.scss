@@ -32,15 +32,16 @@
 
 .blogcontents {
     
-    padding-top: 50px;
+    // padding-top: 50px;
+    padding: 20px 10px;
     text-align: center;
-    padding: 0 10px;
+    // padding: 0 10px;
     background-color: #efefef;
 
     &__wrap {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         width: 100%;
         margin: 0 auto;
     }
