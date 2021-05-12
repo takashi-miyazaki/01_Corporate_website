@@ -187,7 +187,9 @@
     }
 
     .blogtop {
-        &__letter {
+        height: 150px;
+        
+        h3 {
             font-size: 25px;
         }
 
@@ -1113,12 +1115,13 @@
     }
 
     .blogtop {
-        &__img {
-            height: 100px;
-        }
+        height: 100px;
 
-        &__letter {
-            font-size: 18px;
+        h3 {
+            font-size: 20px;
+            padding-top: 20px;
+            padding-left: 30px;
+
         }
 
     }
@@ -1216,11 +1219,11 @@
 
         &__title {
             line-height: 1.3em;
-            font-size: 20px;
+            font-size: 18px;
             padding-left: 0;
             margin-bottom: 10px;
             border-left: none;
-            border-bottom: solid 10px;
+            border-bottom: solid 5px;
             border-color: gold;
         }
 

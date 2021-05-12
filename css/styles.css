@@ -34,6 +34,12 @@ nav {
   display: none;
 }
 
+.inner {
+  width: 1280px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 .top {
   background-image: url(../img/top_img.jpg);
   background-size: cover;
@@ -213,7 +219,9 @@ nav {
 .topmsg__wrap {
   display: flex;
   justify-content: space-around;
-  margin-top: 50px;
+  margin: 50px auto;
+  width: 1280px;
+  max-width: 100%;
 }
 
 .topmsg__txt {
@@ -410,6 +418,9 @@ nav {
 
 footer {
   padding-top: 20px;
+  width: 1280px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 footer ul {
@@ -680,21 +691,15 @@ footer li {
 }
 
 .blogtop {
-  position: relative;
-  object-fit: cover;
-}
-
-.blogtop__img {
   height: 190px;
-  overflow: hidden;
-  position: relative;
-  opacity: 0.5;
+  background-image: url("../img/philosophy_img.jpg");
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
 }
 
-.blogtop__letter {
-  position: absolute;
-  top: 15%;
-  left: 10%;
+.blogtop h3 {
+  padding-top: 40px;
+  padding-left: 50px;
   font-size: 30px;
 }
 
@@ -1269,7 +1274,10 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     width: 300px;
     margin: 20px 70px;
   }
-  .blogtop__letter {
+  .blogtop {
+    height: 150px;
+  }
+  .blogtop h3 {
     font-size: 25px;
   }
   .philosophy {
@@ -1941,11 +1949,13 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     width: 60%;
     margin: 2vh auto;
   }
-  .blogtop__img {
+  .blogtop {
     height: 100px;
   }
-  .blogtop__letter {
-    font-size: 18px;
+  .blogtop h3 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
   }
   .philosophy {
     height: auto;
@@ -2019,11 +2029,11 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   }
   .seminar__title {
     line-height: 1.3em;
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 0;
     margin-bottom: 10px;
     border-left: none;
-    border-bottom: solid 10px;
+    border-bottom: solid 5px;
     border-color: gold;
   }
   .seminar__dscptn {
